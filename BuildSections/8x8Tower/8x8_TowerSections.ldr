@@ -1,0 +1,157 @@
+0 FILE main.ldr
+0 SCMD_TABLE
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 ThroneRoom.ldr
+1 31 180 0 0 1 0 0 0 1 0 0 0 1 sectionB.ldr
+1 31 360 0 0 1 0 0 0 1 0 0 0 1 TowerJail.ldr
+0 FILE sectionB.ldr
+0 X_WIDTH 8
+0 Y_HEIGHT 25
+0 Z_LENGTH 8
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 41539.dat
+1 31 70 24 0 1 0 0 0 1 0 0 0 1 sideArea
+1 14 0 -168 70 1 0 0 0 1 0 0 0 1 3308.dat
+1 100 70 -120 50 0 0 -1 0 1 0 1 0 0 4070.dat
+1 100 -70 -120 50 0 0 1 0 1 0 -1 0 0 4070.dat
+1 14 0 -168 -70 1 0 0 0 1 0 0 0 1 3308.dat
+1 297 40 -32 70 -1 0 0 0 1 0 0 0 -1 3048.dat
+1 14 0 -8 70 1 0 0 0 1 0 0 0 1 3666.dat
+1 297 -40 -32 70 -1 0 0 0 1 0 0 0 -1 3048.dat
+1 31 -70 24 0 1 0 0 0 1 0 0 0 1 sideArea
+1 31 0 0 40 1 0 0 0 1 0 0 0 1 LG_Bench.ldr
+1 31 0 0 -60 1 0 0 0 1 0 0 0 1 LG_Bench.ldr
+1 31 20 0 0 1 0 0 0 1 0 0 0 1 SM_Bench.ldr
+1 31 -120 0 0 1 0 0 0 1 0 0 0 1 SM_Bench.ldr
+0 FILE sideArea
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 72 0 -144 70 -1 0 0 0 1 0 0 0 -1 4070.dat
+1 14 0 -192 0 0 0 -1 0 1 0 1 0 0 3307.dat
+1 14 0 -144 -60 0 0 -1 0 1 0 1 0 0 2454.dat
+1 71 0 -134 84.438 -1 0 0 0 1 0 0 0 -1 3846.dat
+1 14 0 -120 60 0 0 1 0 1 0 -1 0 0 3245a.dat
+1 14 0 -72 60 0 0 1 0 1 0 -1 0 0 3245a.dat
+0 FILE ThroneRoom.ldr
+0 X_WIDTH 8
+0 Y_HEIGHT 22
+0 Z_LENGTH 8
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_TeriaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 41539.dat
+1 0 80 0 0 -1 0 0 0 1 0 0 0 -1 ThroneWindow.ldr
+1 0 70 -24 0 -1 0 0 0 1 0 0 0 -1 ThroneSide.ldr
+1 14 0 -168 -70 1 0 0 0 1 0 0 0 1 3308.dat
+1 14 0 -24 60 -1 0 0 0 1 0 0 0 -1 2456.dat
+1 14 0 -168 60 -1 0 0 0 1 0 0 0 -1 2456.dat
+1 14 0 -120 60 0 0 1 0 1 0 -1 0 0 30145.dat
+1 14 0 -48 60 -1 0 0 0 1 0 0 0 -1 2456.dat
+1 14 0 -144 50 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 0 -70 -24 0 -1 0 0 0 1 0 0 0 -1 ThroneSide.ldr
+1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 ThroneWindow.ldr
+1 31 0 -8 -20 1 0 0 0 1 0 0 0 1 Throne_Flair.ldr
+0 FILE ThroneSide.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+1 14 0 -96 60 0 0 1 0 1 0 -1 0 0 3245c.dat
+1 14 0 -144 0 0 0 1 0 1 0 -1 0 0 3307.dat
+1 14 0 -48 60 0 0 1 0 1 0 -1 0 0 3245c.dat
+1 14 0 0 0 0 0 1 0 1 0 -1 0 0 3008.dat
+1 14 0 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 0 -96 -60 0 0 1 0 1 0 -1 0 0 3004.dat
+1 14 0 -72 -60 0 0 1 0 1 0 -1 0 0 3245c.dat
+1 14 0 -144 -70 0 0 1 0 1 0 -1 0 0 3005.dat
+0 FILE ThroneWindow.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+1 100 40 -72 -50 1 0 0 0 1 0 0 0 1 3039.dat
+1 14 40 -144 -50 -1 0 0 0 1 0 0 0 -1 3794.dat
+1 14 40 -144 -70 -1 0 0 0 1 0 0 0 -1 3659.dat
+1 31 40 -136 -50 1 0 0 0 1 0 0 0 1 CastleWindow.ldr
+0 FILE TowerJail.ldr
+0 X_WIDTH 8
+0 Y_HEIGHT 19
+0 Z_LENGTH 8
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 -1 0 0 0 1 0 0 0 -1 41539.dat
+1 0 0 0 -20 -1 0 0 0 1 0 0 0 -1 JailTowerBars.ldr
+1 14 -30 -144 -70 0 0 -1 0 1 0 1 0 0 2357.dat
+1 14 30 -144 -70 1 0 0 0 1 0 0 0 1 2357.dat
+1 14 -70 -144 70 0 0 1 0 1 0 -1 0 0 3005.dat
+1 14 70 -144 70 0 0 1 0 1 0 -1 0 0 3005.dat
+1 14 0 -144 70 1 0 0 0 1 0 0 0 1 3307.dat
+1 14 -70 -120 70 0 0 1 0 1 0 -1 0 0 3005.dat
+1 14 70 -120 70 0 0 1 0 1 0 -1 0 0 3005.dat
+1 14 -60 -96 70 1 0 0 0 1 0 0 0 1 3004.dat
+1 14 60 -96 70 1 0 0 0 1 0 0 0 1 3004.dat
+1 14 -50 -72 -50 -1 0 0 0 1 0 0 0 -1 2357.dat
+1 14 -50 -48 -50 -1 0 0 0 1 0 0 0 -1 2357.dat
+1 14 -60 -24 -60 0 0 1 0 1 0 -1 0 0 3003.dat
+1 30 -70 -48 -70 0 0 1 0 1 0 -1 0 0 4589.dat
+1 14 50 -72 -50 0 0 1 0 1 0 -1 0 0 2357.dat
+1 14 50 -48 -50 0 0 1 0 1 0 -1 0 0 2357.dat
+1 14 60 -24 -60 0 0 1 0 1 0 -1 0 0 3003.dat
+1 30 70 -48 -70 0 0 1 0 1 0 -1 0 0 4589.dat
+1 14 -60 -72 60 0 0 1 0 1 0 -1 0 0 30145.dat
+1 14 60 -72 60 0 0 1 0 1 0 -1 0 0 30145.dat
+1 0 0 -96 70 1 0 0 0 1 0 0 0 1 30055.dat
+1 0 0 -48 70 1 0 0 0 1 0 0 0 1 30055.dat
+1 0 0 0 20 1 0 0 0 1 0 0 0 1 JailTowerBars.ldr
+1 14 -60 -144 0 0 0 1 0 1 0 -1 0 0 2456.dat
+1 14 60 -144 0 0 0 1 0 1 0 -1 0 0 2456.dat
+1 0 -20 0 0 0 0 -1 0 1 0 1 0 0 JailTowerBars.ldr
+1 14 0 -144 -70 1 0 0 0 1 0 0 0 1 3065.dat
+1 14 0 -168 -70 1 0 0 0 1 0 0 0 1 3009.dat
+1 14 60 -168 0 0 0 1 0 1 0 -1 0 0 2456.dat
+1 14 -60 -168 0 0 0 1 0 1 0 -1 0 0 2456.dat
+1 14 0 -168 70 1 0 0 0 1 0 0 0 1 3009.dat
+0 FILE JailTowerBars.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+1 0 -50 -120 -20 0 0 -1 0 1 0 1 0 0 30055.dat
+1 14 -70 -120 -20 0 0 -1 0 1 0 1 0 0 3307.dat
+1 0 -50 -72 -20 0 0 -1 0 1 0 1 0 0 30055.dat
+1 14 -50 -24 -20 0 0 1 0 1 0 -1 0 0 3037.dat
+0 FILE Throne_Flair.ldr
+0 REPLACE "Throne_Table" ONE
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 3031.dat
+1 14 -10 -72 30 0 0 1 0 1 0 -1 0 0 4460b.dat
+1 14 10 -72 30 0 0 -1 0 1 0 1 0 0 4460b.dat
+1 14 0 -24 -20 0 0 1 0 1 0 -1 0 0 4871.dat
+1 14 0 -80 30 1 0 0 0 1 0 0 0 1 3069.dat
+1 14 30 -24 10 0 0 1 0 1 0 -1 0 0 3040.dat
+1 14 -30 -24 10 0 0 -1 0 1 0 1 0 0 3040.dat
+0 FILE LG_Bench.ldr
+0 REPLACE "LG_Bench_Table" ONE
+1 297 -30 -32 -10 -1 0 0 0 1 0 0 0 -1 4073.dat
+1 25 -30 -72 10 -1 0 0 0 1 0 0 0 -1 4073.dat
+1 25 -30 -64 10 -1 0 0 0 1 0 0 0 -1 3005.dat
+1 25 0 -40 0 -1 0 0 0 1 0 0 0 -1 3020.dat
+1 25 10 -64 10 -1 0 0 0 1 0 0 0 -1 3626b.dat
+1 297 30 -32 -10 -1 0 0 0 1 0 0 0 -1 4073.dat
+1 297 30 -32 10 -1 0 0 0 1 0 0 0 -1 4073.dat
+1 297 -30 -32 10 -1 0 0 0 1 0 0 0 -1 4073.dat
+1 70 30 -24 10 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 70 -30 -24 10 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 25 30 -66.25 -10 0 0 1 0 1 0 -1 0 0 64647.dat
+1 25 30 -64 -10 1 0 0 0 1 0 -0 0 1 59900.dat
+1 70 -30 -24 -10 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 70 30 -24 -10 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 FILE SM_Bench.ldr
+0 REPLACE "SM_Bench_Table" ONE
+1 25 50 -24 30 1 0 0 0 1 0 0 0 1 3062b.dat
+1 25 50 -32 0 0 0 -1 0 1 0 1 0 0 3710.dat
+1 25 50 -24 -30 1 0 0 0 1 0 0 0 1 3062b.dat
+1 25 50 -56 10 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 3899.dat
+0 FILE CastleWindow.ldr
+0 REPLACE "CastleWindow_Table" ALL
+1 200 0 24 -3.5 1 0 0 0 1 0 0 0 1 30046.dat
+1 200 0 0 0 1 0 0 0 1 0 0 0 1 30044.dat

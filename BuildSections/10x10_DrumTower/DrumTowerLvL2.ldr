@@ -1,0 +1,31 @@
+0 FILE main.ldr
+0 X_WIDTH 10
+0 Y_HEIGHT 19
+0 Z_LENGTH 10
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 0 0 -1 0 1 0 1 0 0 89523.dat
+1 14 -50 -144 50 -1 0 0 0 1 0 0 0 -1 CornerSec.ldr
+1 14 50 -144 -50 1 0 0 0 1 0 0 0 1 CornerSec.ldr
+1 14 -50 -144 -50 0 0 1 0 1 0 -1 0 0 CornerSec.ldr
+1 100 -70 -144 20 0 0 1 0 1 0 -1 0 0 3660.dat
+1 100 70 -144 -20 0 0 -1 0 1 0 1 0 0 3660.dat
+1 100 -20 -144 70 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 100 20 -144 -70 1 0 0 0 1 0 0 0 1 3660.dat
+1 14 90 -24 -30 0 0 -1 0 1 0 1 0 0 3005.dat
+1 14 -30 -24 90 0 0 -1 0 1 0 1 0 0 3005.dat
+1 31 0 -72 -70 -1 0 0 0 1 0 0 0 -1 DrumWindow.ldr
+1 31 -70 -72 0 0 0 -1 0 1 0 1 0 0 DrumWindow.ldr
+1 100 -70 -144 -20 0 0 1 0 1 0 -1 0 0 3660.dat
+1 100 -20 -144 -70 1 0 0 0 1 0 0 0 1 3660.dat
+0 FILE DrumWindow.ldr
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 87544.dat
+1 14 0 -48 0 -1 0 0 0 1 0 0 0 -1 90195.dat
+0 FILE CornerSec.ldr
+0 REPLACE  "Corner_Table.ldr" ALL
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 87421.dat

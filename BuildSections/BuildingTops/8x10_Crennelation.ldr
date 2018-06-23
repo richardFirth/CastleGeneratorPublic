@@ -1,0 +1,49 @@
+0 FILE main.ldr
+0 SCMD_TABLE
+
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 8x10_Kingdoms.ldr
+
+0 FILE 8x10_Kingdoms.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+1 14 -80 -48 -70 -1 0 0 0 1 0 0 0 -1 85984.dat
+1 14 -90 -24 0 0 0 -1 0 1 0 1 0 0 10BTL
+1 14 0 -24 -70 -1 0 0 0 1 0 0 0 -1 10BTL
+1 14 0 -24 70 1 0 0 0 1 0 0 0 1 10BTL
+1 14 90 -24 0 0 0 1 0 1 0 -1 0 0 10BTL
+1 14 80 -48 70 -1 0 0 0 1 0 0 0 -1 1x2Flag.ldr
+1 14 -80 -48 70 -1 0 0 0 1 0 0 0 -1 1x2Flag.ldr
+1 14 -70 -48 -70 1 0 0 0 1 0 0 0 1 1x1Shield.ldr
+1 14 70 -48 -70 1 0 0 0 1 0 0 0 1 1x1Shield.ldr
+1 14 -90 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 90 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 0 -48 -70 -1 0 0 0 1 0 0 0 -1 85984.dat
+1 14 80 -48 -70 -1 0 0 0 1 0 0 0 -1 85984.dat
+1 31 0 0 -40 1 0 0 0 1 0 0 0 1 3030.dat
+1 31 0 0 40 1 0 0 0 1 0 0 0 1 3030.dat
+0 FILE 10BTL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 3008.dat
+1 14 0 -24 0 1 0 0 0 1 0 0 0 1 3004.dat
+0 FILE 1x2Flag.ldr
+0 X_WIDTH 1
+0 Y_HEIGHT 3
+0 Z_LENGTH 2
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 60 "C_FactionColorB" ALL
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 30237.dat
+1 0 0 0 -20 0 -1 0 0 0 1 -1 0 0 3849.dat
+1 30 0 -144 -20 0 0 1 0 1 0 -1 0 0 4495.dat
+1 60 0 -120 -20 0 0 1 0 1 0 -1 0 0 4495.dat
+0 FILE 1x1Shield.ldr
+0 XXXREPLACE_BRICK 3846.dat "1x1Shield_Table(C_FactionColor)" ALL
+0 X_WIDTH 1
+0 Y_HEIGHT 3
+0 Z_LENGTH 2
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 87087.dat
+1 14 0 10 -20 1 0 0 0 1 0 0 0 1 3846.dat

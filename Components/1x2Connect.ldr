@@ -1,0 +1,13 @@
+0 FILE 1x2Connect.ldr
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPLACE_BRICK 4460b.dat "1x2x3Slope_Table(E_BuildStyle1)" ALL
+
+0 X_WIDTH 1
+0 Y_HEIGHT 3
+0 Z_LENGTH 2
+
+1 100 0 -120 0 0 0 1 0 1 0 -1 0 0 3700.dat
+1 100 0 0 0 0 0 1 0 1 0 -1 0 0 3700.dat
+1 30 0 -96 10 1 0 0 0 1 0 0 0 1 3665.dat
+1 100 0 -72 10 1 0 0 0 1 0 0 0 1 4460b.dat

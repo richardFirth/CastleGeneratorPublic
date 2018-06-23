@@ -1,0 +1,11 @@
+BlueGate_Arch.ldr@A_rot0, 0, 22, 1
+BGate_TopSection_Blue.ldr@A_rot0, 0, 43, 1
+BGate_TopSection_Balcony.ldr@A_rot0, 0, 43, 1
+%G,H,F
+:G
+6x12_Crennelation.ldr@A_rot0, 0, 65, 2
+:H
+HingedRoof=HingedRoof_6x12.ldr@A_rot0, 0, 65, 2
+:F
+PrisonTower_Cell.ldr@A_rot0, 0, 65, 2
+PrisonTower_Top.ldr@A_rot0, 0, 84, 3

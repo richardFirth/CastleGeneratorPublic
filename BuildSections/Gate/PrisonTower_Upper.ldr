@@ -1,0 +1,52 @@
+0 FILE main.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+
+1 297 -10 -215.812 -70 0 0 1 0 1 0 -1 0 0 4073.dat
+1 297 10 -215.812 -70 0 0 1 0 1 0 -1 0 0 4073.dat
+1 100 0 -208 -30 1 0 0 0 1 0 0 0 1 3747a.dat
+1 30 -90 -184 30 0 0 1 0 1 0 -1 0 0 3062b.dat
+1 30 90 -208 -50 0 0 1 0 1 0 -1 0 0 3062b.dat
+1 30 90 -184 -30 1 0 0 0 1 0 0 0 1 3665.dat
+1 30 -130 -15.812 0 0 0 -1 0 1 0 1 0 0 30137.dat
+1 30 90 -184 30 0 0 1 0 1 0 -1 0 0 3062b.dat
+1 14 0 -16 -30 1 0 0 0 1 0 0 0 1 6112.dat
+1 100 60 -208 -30 1 0 0 0 1 0 0 0 1 3633.dat
+1 14 0 -184 10 1 0 0 0 1 0 0 0 1 2730.dat
+1 11 -40 -184 -30 1 0 0 0 1 0 0 0 1 PrisonWindowSec
+1 11 40 -184 -30 1 0 0 0 1 0 0 0 1 PrisonWindowSec
+1 11 70 -160 0 0 0 -1 0 1 0 1 0 0 TowerEdge
+1 14 0 -16 30 1 0 0 0 1 0 0 0 1 6112.dat
+1 11 -70 -160 0 0 0 1 0 1 0 -1 0 0 TowerEdge
+1 30 -90 -184 -30 1 0 0 0 1 0 0 0 1 3665.dat
+1 30 -90 -208 -50 0 0 1 0 1 0 -1 0 0 3062b.dat
+1 100 -60 -208 -30 1 0 0 0 1 0 0 0 1 3633.dat
+
+
+0 FILE PrisonWindowSec
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+1 30 -30 24 0 0 0 1 0 1 0 -1 0 0 43888.dat
+1 30 0 8 0 -1 0 0 0 1 0 0 0 -1 30044.dat
+1 14 0 72 0 1 0 0 0 1 0 0 0 1 3004.dat
+1 14 0 96 0 1 0 0 0 1 0 0 0 1 90195.dat
+1 30 0 0 0 1 0 0 0 1 0 0 0 1 3659.dat
+1 30 30 24 0 0 0 1 0 1 0 -1 0 0 43888.dat
+1 14 0 32 -4 -1 0 0 0 1 0 0 0 -1 30046.dat
+
+0 FILE TowerEdge
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+1 14 0 0 -40 1 0 0 0 1 0 0 0 1 30246.dat
+1 14 20 -48 -40 1 0 0 0 1 0 0 0 1 3678b.dat
+1 14 -20 -48 -40 1 0 0 0 1 0 0 0 1 3678b.dat
+1 30 0 144 -60 1 0 0 0 1 0 0 0 1 30137.dat

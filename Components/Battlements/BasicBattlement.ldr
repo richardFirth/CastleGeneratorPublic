@@ -1,0 +1,8 @@
+0 FILE xBattlement.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 X_WIDTH 4
+0 Y_HEIGHT 6
+0 Z_LENGTH 1
+
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 3065.dat
+

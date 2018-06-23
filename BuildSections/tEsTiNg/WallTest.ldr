@@ -1,0 +1,4 @@
+0 FILE main.ldr
+0 REPLACE_BRICK 60808.dat "4x6_Wall_Table(WallType)" ALL
+
+1 31 -200 0 0 1 0 0 0 1 0 0 0 1 60808.dat

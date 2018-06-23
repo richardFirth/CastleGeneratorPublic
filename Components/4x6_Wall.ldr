@@ -1,0 +1,9 @@
+0 FILE 4x6_Wall.ldr
+0 REPLACE_BRICK 60808.dat "4x6_Wall_Table" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 X_WIDTH 4
+0 Y_HEIGHT 18
+0 Z_LENGTH 1
+
+1 14 0 24 0 1 0 0 0 1 0 0 0 1 60808.dat
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 3010.dat

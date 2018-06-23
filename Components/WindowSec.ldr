@@ -1,0 +1,6 @@
+0 FILE WindowSec.ldr
+0 REPLACE "WindowSec_Table" ALL
+1 14 0 -96 0 1 0 0 0 1 0 0 0 1 3010.dat
+1 100 0 0 0 1 0 0 0 1 0 0 0 1 3678b.dat
+1 14 0 -72 0 1 0 0 0 1 0 0 0 1 90195.dat
+1 14 0 -24 0 1 0 0 0 1 0 0 0 1 3004.dat

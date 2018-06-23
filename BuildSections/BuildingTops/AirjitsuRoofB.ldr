@@ -1,0 +1,46 @@
+0 FILE main.ldr
+
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 41539.dat
+1 100 40.0625 -24 -70 1 0 0 0 1 0 0 0 1 3937.dat
+1 100 -39.938 -24 -70 1 0 0 0 1 0 0 0 1 3937.dat
+1 100 -70 -48 0 1 0 0 0 1 0 0 0 1 AJsec1.ldr
+1 100 70 -48 0 -1 0 0 0 1 0 0 0 -1 AJsec1.ldr
+
+1 30 -200 -76 -33 1 0 0 0 0.707 -0.707 0 0.707 0.707 AJroofSection.ldr
+1 31 200 -76 34 -1 0 0 0 0.707 -0.707 0 -0.707 -0.707 AJroofSection.ldr
+1 100 40 -24 70 -1 0 0 0 1 0 0 0 -1 3937.dat
+1 100 -40 -24 70 -1 0 0 0 1 0 0 0 -1 3937.dat
+
+
+0 FILE AJsec1.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+1 30 0 0 -20 0 0 1 0 1 0 -1 0 0 60592.dat
+1 100 0 -24 -10 1 0 0 0 1 0 0 0 1 3040b.dat
+1 70 0 -48 0 0 0 1 0 1 0 -1 0 0 3049b.dat
+1 100 0 24 -50 1 0 0 0 1 0 0 0 1 50746.dat
+1 100 0 24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+1 30 0 0 20 0 0 1 0 1 0 -1 0 0 60592.dat
+1 100 0 24 50 -1 0 0 0 1 0 0 0 -1 50746.dat
+1 100 0 24 50 1 0 0 0 1 0 0 0 1 3005.dat
+1 100 0 -24 10 -1 0 0 0 1 0 0 0 -1 3040b.dat
+
+
+0 FILE AJroofSection.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+
+1 30 200 0 -20 1 0 0 0 1 0 0 0 1 3036.dat
+1 70 150 8 40 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 70 190 8 40 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 70 230 8 40 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 70 270 8 40 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 14 160 8 -70 1 0 0 0 1 0 0 0 1 6134.dat
+1 14 240 8 -70 1 0 0 0 1 0 0 0 1 6134.dat

@@ -1,0 +1,13 @@
+%A,B,C,D
+:A
+$Spawn_Blue_CornerTower.txt@A_rot0,0,0,-12
+$BlueCastleCorner_B.txt@A_rot0,0,0,12
+:B
+$BlueCastleCorner_A.txt@D_rot270,0,0,-12
+$Spawn_Blue_CornerTower.txt@B_rot90,0,0,12
+:C
+$8x8Tower_Extended.txt@A_rot0,1,0,-11
+$BlueCastleCorner_B.txt@A_rot0,0,0,12
+:D
+$BlueCastleCorner_A.txt@D_rot270,0,0,-12
+$8x8Tower_Extended.txt@B_rot90,1,0,11

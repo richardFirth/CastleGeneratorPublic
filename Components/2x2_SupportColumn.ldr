@@ -1,0 +1,9 @@
+0 FILE 2x2_SupportColumn.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 X_WIDTH 2
+0 Y_HEIGHT 18
+0 Z_LENGTH 2
+
+1 14 0 24 0 1 0 0 0 1 0 0 0 1 2454.dat
+1 30 0 0 0 1 0 0 0 1 0 0 0 1 3660.dat

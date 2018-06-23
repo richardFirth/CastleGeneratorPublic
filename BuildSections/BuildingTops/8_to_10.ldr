@@ -1,0 +1,81 @@
+0 FILE main.ldr
+0 SCMD_TABLE
+1 31 200 0 0 1 0 0 0 1 0 0 0 1 8to10.ldr
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 8to10B.ldr
+1 31 400 0 0 1 0 0 0 1 0 0 0 1 8to10C.ldr
+
+0 FILE 8to10.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 41539.dat
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 Edge.ldr
+1 14 0 0 0 0 0 1 0 1 0 -1 0 0 Edge.ldr
+1 14 0 0 0 -1 0 0 0 1 0 0 0 -1 Edge.ldr
+1 14 0 0 0 0 0 -1 0 1 0 1 0 0 Edge.ldr
+0 FILE Edge.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 14 -70 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 0 -24 -70 1 0 0 0 1 0 0 0 1 3010.dat
+1 100 -50 -24 -70 1 0 0 0 1 0 0 0 1 3665.dat
+1 100 50 -24 -70 1 0 0 0 1 0 0 0 1 3665.dat
+0 FILE 8to10B.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 41539.dat
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 EdgeSec.ldr
+1 14 0 0 0 0 0 1 0 1 0 -1 0 0 EdgeSec.ldr
+1 14 0 0 0 -1 0 0 0 1 0 0 0 -1 EdgeSec.ldr
+1 14 0 0 0 0 0 -1 0 1 0 1 0 0 EdgeSec.ldr
+0 FILE EdgeSec.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 100 20 -24 -70 1 0 0 0 1 0 0 0 1 3660.dat
+1 100 -20 -24 -70 1 0 0 0 1 0 0 0 1 3660.dat
+1 14 -70 -24 -70 1 0 0 0 1 0 0 0 1 2357.dat
+
+
+0 FILE 8to10C.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 41539.dat
+
+
+1 14 0 -24 -70 1 0 0 0 1 0 0 0 1 CastleSupport1x4.ldr
+
+
+1 14 -70 -24 -70 1 0 0 0 1 0 0 0 1 2357.dat
+1 14 -70 -24 70 0 0 1 0 1 0 -1 0 0 2357.dat
+1 14 70 -24 -70 0 0 -1 0 1 0 1 0 0 2357.dat
+1 14 70 -24 70 -1 0 0 0 1 0 0 0 -1 2357.dat
+
+
+
+1 14 -70 -24 0 0 0 1 0 1 0 -1 0 0 CastleSupport1x4.ldr
+1 14 0 -24 70 -1 0 0 0 1 0 0 0 -1 CastleSupport1x4.ldr
+1 14 70 -24 0 0 0 -1 0 1 0 1 0 0 CastleSupport1x4.ldr
+0 FILE CastleSupport1x4.ldr
+
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 30414.dat
+1 100 0 10 -18 1 0 0 0 0 -1 0 1 0 3710.dat
+1 14 0 10 -26 1 0 0 0 0 -1 0 1 0 3710.dat
+1 100 30 10 -42 1 0 0 0 0 -1 0 1 0 30039.dat
+1 100 30 10 -42 1 0 0 0 0 -1 0 1 0 6091.dat
+1 100 -30 10 -42 1 0 0 0 0 -1 0 1 0 30039.dat
+1 100 -30 10 -42 1 0 0 0 0 -1 0 1 0 6091.dat
+
+
+

@@ -1,0 +1,6 @@
+WhiteCapBase@A_rot0,0,0,0
+WhiteCapFloor2@A_rot0,0,26,0
+Upper_whitecap@A_rot0,0,48,0
+WhiteCap_Conv@A_rot0,0,72,0
+8x12_Crennelation@A_rot0,0,76,0
+

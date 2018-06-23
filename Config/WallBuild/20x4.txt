@@ -1,0 +1,4 @@
+C,W,W,WP,W,W,C
+C,W,NP,W,W,NP,W,C
+C,W,BREAK,W,C
+C,BREAK,W,W,C

@@ -1,0 +1,117 @@
+0 FILE main.ldr
+0 SCMD_TABLE
+1 11 320 0 -40 0 0 -1 0 1 0 1 0 0 Left_6.ldr
+1 11 120 0 -40 0 0 -1 0 1 0 1 0 0 Left_12.ldr
+1 11 -40 0 320 0 0 -1 0 1 0 1 0 0 Right_6.ldr
+1 11 -40 0 120 0 0 -1 0 1 0 1 0 0 Right_12.ldr
+0 FILE Left_12.ldr
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 60808.dat "4x6_Wall_Table(WallType)" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+1 11 0 0 0 0 0 1 0 1 0 -1 0 0 3029.dat
+1 31 0 -152 0 0 0 1 0 1 0 -1 0 0 3029.dat
+1 14 -30 -200 -100 0 0 1 0 1 0 -1 0 0 3004.dat
+1 14 -30 -176 -110 -1 0 0 0 1 0 0 0 -1 3005.dat
+1 14 -30 -200 -20 0 0 1 0 1 0 -1 0 0 3004.dat
+1 14 -30 -176 -40 0 0 1 0 1 0 -1 0 0 3009.dat
+1 14 -10 -120 -60 0 0 1 0 1 0 -1 0 0 60808.dat
+1 30 -30 -200 -100 0 0 -1 0 1 0 1 0 0 85984.dat
+1 14 -10 -120 40 0 0 1 0 1 0 -1 0 0 60808.dat
+1 14 -20 -24 -110 0 0 1 0 1 0 -1 0 0 1x2ConnectB.ldr
+1 14 -20 -24 -10 0 0 1 0 1 0 -1 0 0 1x2Pillar.ldr
+1 14 -20 -24 90 0 0 1 0 1 0 -1 0 0 1x2Pillar.ldr
+1 30 -30 -200 -20 0 0 -1 0 1 0 1 0 0 85984.dat
+1 11 30 0 -20 1 0 0 0 1 0 0 0 1 Armory_Flair.ldr
+1 14 -10 -144 40 0 0 1 0 1 0 -1 0 0 3010.dat
+1 14 -10 -144 -60 0 0 1 0 1 0 -1 0 0 3010.dat
+0 FILE Right_12.ldr
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 60808.dat "4x6_Wall_Table(WallType)" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+1 14 60 -120 10 -1 0 0 0 1 0 0 0 -1 60808.dat
+1 14 110 -24 20 -1 0 0 0 1 0 0 0 -1 1x2ConnectB.ldr
+1 11 0 0 0 -1 0 0 0 1 0 0 0 -1 3029.dat
+1 31 0 -152 0 -1 0 0 0 1 0 0 0 -1 3029.dat
+1 14 -40 -120 10 -1 0 0 0 1 0 0 0 -1 60808.dat
+1 14 10 -24 20 -1 0 0 0 1 0 0 0 -1 1x2Pillar.ldr
+1 14 -90 -24 20 -1 0 0 0 1 0 0 0 -1 1x2Pillar.ldr
+1 14 40 -176 30 1 0 0 0 1 0 0 0 1 3009.dat
+1 14 20 -200 30 1 0 0 0 1 0 0 0 1 3004.dat
+1 14 110 -176 30 0 0 1 0 1 0 -1 0 0 3005.dat
+1 14 100 -200 30 1 0 0 0 1 0 0 0 1 3004.dat
+1 30 20 -200 30 1 0 0 0 1 0 0 0 1 85984.dat
+1 30 100 -200 30 1 0 0 0 1 0 0 0 1 85984.dat
+1 30 -20 0 -30 0 0 1 0 1 0 -1 0 0 Armory_Flair.ldr
+1 14 60 -144 10 -1 0 0 0 1 0 0 0 -1 3010.dat
+1 14 -40 -144 10 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 FILE Right_6.ldr
+0 REPLACE_BRICK 60808.dat "4x6_Wall_Table(WallType)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 14 50 -176 30 -1 0 0 0 1 0 0 0 -1 3005.dat
+1 11 0 0 0 -1 0 0 0 1 0 0 0 -1 3032.dat
+1 31 0 -152 0 -1 0 0 0 1 0 0 0 -1 3032.dat
+1 14 0 -120 10 -1 0 0 0 1 0 0 0 -1 60808.dat
+1 14 50 -24 20 -1 0 0 0 1 0 0 0 -1 1x2ConnectB.ldr
+1 14 0 -144 10 1 0 0 0 1 0 0 0 1 3066.dat
+0 FILE Left_6.ldr
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 60808.dat "4x6_Wall_Table(WallType)" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 14 -30 -176 -50 -1 0 0 0 1 0 0 0 -1 3005.dat
+1 14 -10 -120 0 0 0 1 0 1 0 -1 0 0 60808.dat
+1 14 -20 -24 -50 0 0 1 0 1 0 -1 0 0 1x2ConnectB.ldr
+1 11 0 0 0 0 0 -1 0 1 0 1 0 0 3032.dat
+1 31 0 -152 0 0 0 -1 0 1 0 1 0 0 3032.dat
+1 14 -10 -144 0 0 0 1 0 1 0 -1 0 0 3066.dat
+0 FILE 1x2Pillar.ldr
+0 X_WIDTH 1
+0 Y_HEIGHT 3
+0 Z_LENGTH 2
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPLACE_BRICK 4460b.dat "1x2x3Slope_Table(E_BuildStyle1)" ALL
+1 100 0 -120 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 100 0 0 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 30 0 -96 10 1 0 0 0 1 0 0 0 1 3665.dat
+1 100 0 -72 10 1 0 0 0 1 0 0 0 1 4460b.dat
+0 FILE 1x2ConnectB.ldr
+0 X_WIDTH 1
+0 Y_HEIGHT 3
+0 Z_LENGTH 2
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPLACE_BRICK 4460b.dat "1x2x3Slope_Table(E_BuildStyle1)" ALL
+1 100 0 -120 20 0 0 1 0 1 0 -1 0 0 3700.dat
+1 100 0 0 20 0 0 1 0 1 0 -1 0 0 3700.dat
+1 30 0 -96 10 1 0 0 0 1 0 0 0 1 3665.dat
+1 100 0 -72 10 1 0 0 0 1 0 0 0 1 4460b.dat
+1 100 0 0 -10 0 0 1 0 1 0 -1 0 0 3005.dat
+1 100 0 -120 -10 0 0 1 0 1 0 -1 0 0 3005.dat
+1 100 0 0 50 0 0 1 0 1 0 -1 0 0 3005.dat
+1 100 0 -48 40 0 0 1 0 1 0 -1 0 0 3245a.dat
+1 100 0 -96 40 0 0 1 0 1 0 -1 0 0 3245a.dat
+1 100 0 -120 50 0 0 1 0 1 0 -1 0 0 3005.dat
+0 FILE Armory_Flair.ldr
+0 REPLACE "Armory_Flair_Table.ldr" ONE
+1 25 19.9375 -106 -10 0 0 -1 0 1 0 1 0 0 4497.dat
+1 25 0 -48 0 0 0 -1 0 1 0 1 0 0 3710.dat
+1 25 0 -40 -10 0 0 -1 0 1 0 1 0 0 4085c.dat
+1 25 0 -40 10 0 0 -1 0 1 0 1 0 0 4085c.dat
+1 25 0 -40 -30 0 0 -1 0 1 0 1 0 0 4085c.dat
+1 25 0 -40 30 0 0 -1 0 1 0 1 0 0 4085c.dat
+1 25 0 -32 0 0 0 -1 0 1 0 1 0 0 3710.dat
+1 25 0 -24 -30 0 0 -1 0 1 0 1 0 0 3062b.dat
+1 25 0 -24 30 0 0 -1 0 1 0 1 0 0 3062b.dat
+1 25 19.9375 -66 -30 0 0 1 0 1 0 -1 0 0 3848.dat
+1 25 19.9375 -104 30 0 0 -1 0 1 0 1 0 0 4497.dat

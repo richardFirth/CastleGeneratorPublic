@@ -1,0 +1,3 @@
+Corner_Sec.ldr@A_rot0,0,0,0
+WallSections=Left_6.ldr@A_rot0,0,0,-6
+WallSections=Right_12.ldr@A_rot0,9,0,0

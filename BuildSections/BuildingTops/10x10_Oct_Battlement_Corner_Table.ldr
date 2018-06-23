@@ -1,0 +1,130 @@
+
+
+0 FILE main.ldr
+0 SCMD_TABLE
+0 SCMD_KEY OctBattlement
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+1 14 0 0 220 1 0 0 0 1 0 0 0 1 10x10_Oct_Corner_A.ldr
+1 14 230 0 0 1 0 0 0 1 0 0 0 1 10x10_Oct_Corner_B.ldr
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 10x10_Oct_Corner_C.ldr
+1 14 240 0 220 1 0 0 0 1 0 0 0 1 10x10_Oct_Corner_D.ldr
+1 14 0 0 440 1 0 0 0 1 0 0 0 1 10x10_Oct_Corner_E.ldr
+0 FILE 10x10_Oct_Corner_D.ldr
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 4460b.dat "CapBattlement_Table1x1(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 0 0 -1 0 1 0 1 0 0 89523.dat
+1 14 -60 -24 60 -1 0 0 0 1 0 0 0 -1 14413.dat
+1 14 60 -24 -60 1 0 0 0 1 0 0 0 1 14413.dat
+1 14 0 -24 -90 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 14 -90 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 14 -60 -24 -60 0 0 1 0 1 0 -1 0 0 14413.dat
+1 30 -90 -48 0 0 0 -1 0 1 0 1 0 0 85984.dat
+1 14 -90 -48 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 30 0 -48 -90 -1 0 0 0 1 0 0 0 -1 85984.dat
+1 14 0 -48 -90 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 14 90 -48 -30 0 0 1 0 1 0 -1 0 0 3005.dat
+1 14 -30 -48 90 0 0 1 0 1 0 -1 0 0 3005.dat
+1 30 90 -48 -30 0 0 1 0 1 0 -1 0 0 54200.dat
+1 30 -30 -48 90 1 0 0 0 1 0 0 0 1 54200.dat
+0 FILE 10x10_Oct_Corner_C.ldr
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+1 31 0 -48 -90 -1 0 0 0 1 0 0 0 -1 85984.dat
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 89523.dat
+1 100 50 -24 -50 1 0 0 0 1 0 0 0 1 CornerBattlement_C.ldr
+1 100 -50 -24 -50 0 0 1 0 1 0 -1 0 0 CornerBattlement_C.ldr
+1 100 -50 -24 50 -1 0 0 0 1 0 0 0 -1 CornerBattlement_C.ldr
+1 14 0 -24 -90 1 0 0 0 1 0 0 0 1 3004.dat
+1 14 0 -48 -90 1 0 0 0 1 0 0 0 1 3004.dat
+1 14 -90 -48 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 31 -90 -48 0 0 0 -1 0 1 0 1 0 0 85984.dat
+1 14 -90 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+0 FILE CornerBattlement_C.ldr
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPLACE_BRICK 54200.dat "CapBattlement_Table1x1(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+1 14 -10 0 -30 1 0 0 0 1 0 0 0 1 87620.dat
+1 14 30 0 10 1 0 0 0 1 0 0 0 1 87620.dat
+1 14 10 -24 -10 1 0 0 0 1 0 0 0 1 87620.dat
+0 FILE 10x10_Oct_Corner_B.ldr
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 89523.dat
+1 100 50 -24 -50 1 0 0 0 1 0 0 0 1 CornerBattlement_B.ldr
+1 100 -50 -24 -50 0 0 1 0 1 0 -1 0 0 CornerBattlement_B.ldr
+1 100 -50 -24 50 -1 0 0 0 1 0 0 0 -1 CornerBattlement_B.ldr
+1 14 -90 -48 30 1 0 0 0 1 0 0 0 1 3040b.dat
+1 14 -90 -48 -30 -1 0 0 0 1 0 0 0 -1 3040b.dat
+1 14 -30 -48 -90 0 0 -1 0 1 0 1 0 0 3040b.dat
+1 14 30 -48 -90 0 0 1 0 1 0 -1 0 0 3040b.dat
+1 14 -90 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 14 0 -24 -90 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 14 90 -48 -30 -1 0 0 0 1 0 0 0 -1 3005.dat
+1 14 -30 -48 90 0 0 -1 0 1 0 1 0 0 3005.dat
+0 FILE CornerBattlement_B.ldr
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPLACE_BRICK 54200.dat "CapBattlement_Table1x1(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 4460b.dat "CapBattlement_Table1x1(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+1 30 -20 -24 -40 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 30 40 -24 20 0 0 1 0 1 0 -1 0 0 54200.dat
+1 14 10 0 -10 1 0 0 0 1 0 0 0 1 14413.dat
+0 FILE 10x10_Oct_Corner_A.ldr
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 89523.dat
+1 14 0 -24 -90 1 0 0 0 1 0 0 0 1 3010.dat
+1 14 -90 -24 0 0 0 1 0 1 0 -1 0 0 3010.dat
+1 100 50 -24 -50 1 0 0 0 1 0 0 0 1 CornerBattlement_A.ldr
+1 100 -50 -24 -50 0 0 1 0 1 0 -1 0 0 CornerBattlement_A.ldr
+1 100 -50 -24 50 -1 0 0 0 1 0 0 0 -1 CornerBattlement_A.ldr
+1 14 -30 -24 90 0 0 1 0 1 0 -1 0 0 3005.dat
+1 14 90 -24 -30 0 0 1 0 1 0 -1 0 0 3005.dat
+0 FILE CornerBattlement_A.ldr
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPLACE_BRICK 54200.dat "CapBattlement_Table1x1(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 4460b.dat "CapBattlement_Table1x1(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+1 14 40 -24 20 0 0 1 0 1 0 -1 0 0 3040b.dat
+1 14 -20 -24 -40 -1 0 0 0 1 0 0 0 -1 3040b.dat
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 2462.dat
+1 30 -20 -24 -40 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 30 40 -24 20 0 0 1 0 1 0 -1 0 0 54200.dat
+0 FILE 10x10_Oct_Corner_E.ldr
+0 REPLACE_BRICK 4460b.dat "CapBattlement_Table1x1(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 0 0 -1 0 1 0 1 0 0 89523.dat
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 BattlementCorner_E.ldr
+1 31 0 0 0 0 0 1 0 1 0 -1 0 0 BattlementCorner_E.ldr
+1 14 90 -48 -30 0 0 -1 0 1 0 1 0 0 3005.dat
+1 14 -60 -24 60 -1 0 0 0 1 0 0 0 -1 14413.dat
+1 14 -30 -48 90 0 0 -1 0 1 0 1 0 0 3005.dat
+1 30 -30 -48 90 1 0 0 0 1 0 0 0 1 54200.dat
+1 30 90 -48 -30 0 0 1 0 1 0 -1 0 0 54200.dat
+0 FILE BattlementCorner_E.ldr
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+1 14 -10 -48 -90 0 0 1 0 1 0 -1 0 0 3040b.dat
+1 14 60 -24 -60 1 0 0 0 1 0 0 0 1 14413.dat
+1 14 0 -24 -90 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 14 10 -48 -90 0 0 -1 0 1 0 1 0 0 3040b.dat
+1 30 0 -48 -90 -1 0 0 0 1 0 0 0 -1 85984.dat

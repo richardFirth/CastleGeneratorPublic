@@ -1,0 +1,62 @@
+0 FILE main.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_TeriaryBuildColor" ALL
+0 REPLACE_BRICK 87421.dat "Corner_Table.ldr" ALL
+1 11 0 0 0 1 0 0 0 1 0 0 0 1 89523.dat
+1 0 90 -24 -10 -1 0 0 0 1 0 0 0 -1 8x8_PillarA.ldr
+1 0 -10 -24 90 0 0 -1 0 1 0 1 0 0 8x8_PillarB.ldr
+1 0 0 -48 -70 1 0 0 0 1 0 0 0 1 WindowSec.ldr
+1 0 -70 -48 0 0 0 1 0 1 0 -1 0 0 WindowSec.ldr
+1 14 50 -168 -50 1 0 0 0 1 0 0 0 1 2462.dat
+1 14 -50 -168 -50 0 0 1 0 1 0 -1 0 0 2462.dat
+1 14 -50 -168 50 -1 0 0 0 1 0 0 0 -1 2462.dat
+1 100 0 -168 -70 1 0 0 0 1 0 0 0 1 3660.dat
+1 100 -70 -168 0 0 0 1 0 1 0 -1 0 0 3660.dat
+1 14 -50 -144 50 -1 0 0 0 1 0 0 0 -1 CornerSec.ldr
+1 14 50 -144 -50 1 0 0 0 1 0 0 0 1 CornerSec.ldr
+1 14 -50 -144 -50 0 0 1 0 1 0 -1 0 0 CornerSec.ldr
+0 FILE 8x8_PillarB.ldr
+0 X_WIDTH 2
+0 Y_HEIGHT 3
+0 Z_LENGTH 2
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_TeriaryBuildColor" ALL
+1 100 -20 0 0 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 0 -144 20 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 0 -24 0 0 0 -1 0 1 0 1 0 0 2357.dat
+1 100 -10 -144 0 1 0 0 0 1 0 0 0 1 3660.dat
+1 100 0 -120 10 0 0 1 0 1 0 -1 0 0 3700.dat
+1 14 -20 -120 10 0 0 1 0 1 0 -1 0 0 3004.dat
+1 100 0 0 10 0 0 1 0 1 0 -1 0 0 3700.dat
+1 14 0 -48 0 0 0 -1 0 1 0 1 0 0 2357.dat
+1 14 0 -72 0 0 0 -1 0 1 0 1 0 0 2357.dat
+1 14 0 -96 0 0 0 -1 0 1 0 1 0 0 2357.dat
+0 FILE 8x8_PillarA.ldr
+0 X_WIDTH 2
+0 Y_HEIGHT 3
+0 Z_LENGTH 2
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_TeriaryBuildColor" ALL
+1 14 0 -48 0 1 0 0 0 1 0 0 0 1 2357.dat
+1 100 20 0 0 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 0 -144 20 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 0 -24 0 1 0 0 0 1 0 0 0 1 2357.dat
+1 14 0 -72 0 1 0 0 0 1 0 0 0 1 2357.dat
+1 14 0 -96 0 1 0 0 0 1 0 0 0 1 2357.dat
+1 100 10 -144 0 1 0 0 0 1 0 0 0 1 3660.dat
+1 100 0 -120 10 0 0 1 0 1 0 -1 0 0 3700.dat
+1 14 20 -120 10 0 0 1 0 1 0 -1 0 0 3004.dat
+1 100 0 0 10 0 0 1 0 1 0 -1 0 0 3700.dat
+0 FILE CornerSec.ldr
+0 REPLACE  "Corner_Table.ldr" ALL
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 87421.dat
+0 FILE WindowSec.ldr
+0 REPLACE  "WindowSec_Table" ALL
+1 14 0 -96 0 1 0 0 0 1 0 0 0 1 3010.dat
+1 100 0 0 0 1 0 0 0 1 0 0 0 1 3678b.dat
+1 14 0 -72 0 1 0 0 0 1 0 0 0 1 90195.dat
+1 14 0 -24 0 1 0 0 0 1 0 0 0 1 3004.dat

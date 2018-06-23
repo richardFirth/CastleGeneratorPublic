@@ -1,0 +1,4 @@
+PrisonTower_Arch@A_rot0, 0, 0, 0
+PrisonTower_Top@A_rot0, 0, 75, 3
+PrisonTower_Cell@A_rot0, 0, 56, 2
+PrisonTower_Upper@A_rot0, 0, 29, 2

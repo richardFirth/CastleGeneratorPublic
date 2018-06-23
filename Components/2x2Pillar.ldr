@@ -1,0 +1,13 @@
+0 FILE 2x2Pillar.ldr
+0 REPLACE_BRICK 3684a.dat "2x2x3Slope_Table(E_BuildStyle1)" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+
+0 X_WIDTH 2
+0 Y_HEIGHT 18
+0 Z_LENGTH 2
+
+1 100 0 48 10 1 0 0 0 1 0 0 0 1 3684a.dat
+1 100 0 120 0 1 0 0 0 1 0 0 0 1 3003.dat
+1 30 0 24 10 1 0 0 0 1 0 0 0 1 3660.dat
+1 100 0 0 0 1 0 0 0 1 0 0 0 1 3003.dat

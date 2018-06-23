@@ -1,0 +1,8 @@
+%X,Y
+:X
+Gate_Base_20.ldr@A_rot0, 0, 0, 0
+$SpawnGate_UpperRED.txt@A_rot0, 0, 0, 0
+
+:Y
+BGate_GroundSec=BGate_Ground_20.ldr@A_rot0, 0, 0, -2
+$SpawnGate_UpperBLUE.txt@A_rot0, 0, 0, -2

@@ -1,0 +1,8 @@
+10x10_Extended_OctTower.ldr@A_rot0, 0, 0, 0
+%A,A,B
+:A
+DrumTowerLvL2.ldr@A_rot0, 0, 19, 0
+$OctTowerTop.txt@A_rot0, 0, 38, 0
+:B
+
+10x10_Oct_Battlement_Corner_Table.ldr@A_rot0, 0, 19, 0

@@ -1,0 +1,8 @@
+Blue_16x4_Tower.ldr@A_rot0, 0, 0, 0
+Blue_16x4_Tower_Room.ldr@A_rot0, 0, 19, 0
+%A,B
+:A
+Blue_16x4_Tower_Room.ldr@A_rot0, 0, 38, 0
+10x10_Oct_Battlement_Table.ldr@A_rot0, 0, 57, 0
+:B
+10x10_Oct_Battlement_Table.ldr@A_rot0, 0, 38, 0

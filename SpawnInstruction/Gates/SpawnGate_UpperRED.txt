@@ -1,0 +1,16 @@
+Gate_PortCullis.ldr@A_rot0, 0, 0, 0
+%A,B
+:A
+Gate_Drawbridge.ldr@A_rot0, 0, 0, 0
+%Z
+:B
+Gate_Door.ldr@A_rot0, 0, 0, 0
+%Z
+:Z
+Gate_Arch.ldr@A_rot0, 0, 21, 0
+Gate_Upper_Table.ldr@A_rot0, 0, 36, 0
+%C,D
+:C
+6x14_Crennelation.ldr@A_rot0, 0, 62, -1
+:D
+HingedRoof.ldr=HingedRoof_6x14.ldr@A_rot0, 0, 62, -1

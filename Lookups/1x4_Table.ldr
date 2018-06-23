@@ -1,0 +1,33 @@
+0 FILE main.ldr
+1 72 0 0 40 1 0 0 0 1 0 0 0 1 config1
+1 72 0 0 80 1 0 0 0 1 0 0 0 1 config2
+1 72 0 0 120 1 0 0 0 1 0 0 0 1 config3
+1 72 0 0 160 1 0 0 0 1 0 0 0 1 config4
+1 72 0 0 200 1 0 0 0 1 0 0 0 1 config5
+0 FILE config1
+0 Name: 1x4
+0 Author: LDraw
+1 6 0 0 0 1 0 0 0 1 0 0 0 1 3010.dat
+1 72 -30 -24 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 72 30 -24 0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 FILE config2
+0 Name: 1x4
+0 Author: LDraw
+1 6 0 0 0 1 0 0 0 1 0 0 0 1 3010.dat
+1 72 -30 -24 0 1 0 0 0 1 0 0 0 1 87087.dat
+1 72 -10 -24 0 1 0 0 0 1 0 0 0 1 87087.dat
+0 FILE config3
+0 Name: 1x4
+0 Author: LDraw
+1 6 0 0 0 1 0 0 0 1 0 0 0 1 3010.dat
+1 72 0 -24 0 1 0 0 0 1 0 0 0 1 30136.dat
+0 FILE config4
+0 Name: 1x4
+0 Author: LDraw
+1 6 0 0 0 1 0 0 0 1 0 0 0 1 3010.dat
+1 72 0 -24 0 1 0 0 0 1 0 0 0 1 30236.dat
+0 FILE config5
+0 Name: 1x4
+0 Author: LDraw
+1 6 0 0 0 1 0 0 0 1 0 0 0 1 3010.dat
+1 72 0 -48 0 1 0 0 0 1 0 0 0 1 3245a.dat

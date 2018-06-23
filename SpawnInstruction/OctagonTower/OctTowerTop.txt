@@ -1,0 +1,6 @@
+%A,B,A
+:A
+
+!10x10_Oct_Battlement_Table.ldr@A_rot0, 0, 0, 0
+:B
+!10x10_Roof.ldr@A_rot0, 0, 0, 0

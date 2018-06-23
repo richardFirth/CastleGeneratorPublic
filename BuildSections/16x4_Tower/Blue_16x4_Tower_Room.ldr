@@ -1,0 +1,187 @@
+0 FILE main.ldr
+0 SCMD_TABLE
+1 31 -230 0 0 0 0 -1 0 1 0 1 0 0 RoomWithDoor.ldr
+1 31 10 0 0 0 0 -1 0 1 0 1 0 0 RoomWithDoorB.ldr
+1 31 -450 0 0 0 0 -1 0 1 0 1 0 0 HogwartsB.ldr
+1 31 -680 0 0 0 0 -1 0 1 0 1 0 0 HogwartsA.ldr
+1 31 -920 0 0 0 0 -1 0 1 0 1 0 0 VampyreRoom.ldr
+0 FILE CastleSupport1x4.ldr
+0 REPLACE "CastleSupport1x4_Table" ALL
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 30414.dat
+1 100 0 10 -18 1 0 0 0 0 -1 0 1 0 3710.dat
+1 14 0 10 -26 1 0 0 0 0 -1 0 1 0 3710.dat
+1 100 30 10 -42 1 0 0 0 0 -1 0 1 0 30039.dat
+1 100 30 10 -42 1 0 0 0 0 -1 0 1 0 6091.dat
+1 100 -30 10 -42 1 0 0 0 0 -1 0 1 0 30039.dat
+1 100 -30 10 -42 1 0 0 0 0 -1 0 1 0 6091.dat
+0 FILE VampyreRoom.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 89523.dat
+1 31 0 -48 90 -1 0 0 0 1 0 0 0 -1 VampyreRoom_WinBlk.ldr
+1 31 0 -24 0 -1 0 0 0 1 0 0 0 -1 VampyreRoom_WinBlkSide.ldr
+1 31 0 -24 0 0 0 1 0 1 0 -1 0 0 VampyreRoom_WinBlkSide.ldr
+1 31 -90 -48 0 0 0 1 0 1 0 -1 0 0 VampyreRoom_WinBlk.ldr
+1 31 90 -48 0 0 0 -1 0 1 0 1 0 0 VampyreRoom_WinBlk.ldr
+1 100 60 -24 60 0 0 -1 0 1 0 1 0 0 14413.dat
+1 100 -60 -24 60 -1 0 0 0 1 0 0 0 -1 14413.dat
+1 100 -90 -24 -30 0 0 -1 0 1 0 1 0 0 3040b.dat
+1 100 90 -24 -30 0 0 1 0 1 0 -1 0 0 3040b.dat
+0 FILE VampyreRoom_WinBlkSide.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 70 -50 -120 -50 -0.707107 0 0.707106 0 1 0 -0.707106 0 -0.707107 30039.dat
+1 14 -50 -112 -50 0 0 1 0 1 0 -1 0 0 2462.dat
+1 14 -50 -24 -50 0 0 1 0 1 0 -1 0 0 2462.dat
+1 71 -50 -88 -50 -0.707 0 -0.707 0 1 0 0.707 0 -0.707 CastleWindow.ldr
+1 100 -60 0 -60 0 0 1 0 1 0 -1 0 0 14413.dat
+1 100 -30 0 -70 0 0 1 0 1 0 -1 0 0 3005.dat
+1 100 -70 0 -30 0 0 1 0 1 0 -1 0 0 3005.dat
+0 FILE VampyreRoom_WinBlk.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 71 0 -88 20 1 0 0 0 1 0 0 0 1 CastleWindow.ldr
+1 100 -20 0 0 1 0 0 0 1 0 0 0 1 98283.dat
+1 14 -30 -72 0 -1 0 0 0 1 0 0 0 -1 60583.dat
+1 14 30 -72 0 -1 0 0 0 1 0 0 0 -1 60583.dat
+1 14 0 -96 0 1 0 0 0 1 0 0 0 1 3659.dat
+1 70 0 -96 20 -1 0 0 0 1 0 0 0 -1 3710.dat
+1 100 0 -24 20 1 0 0 0 1 0 0 0 1 3039.dat
+1 100 0 0 20 1 0 0 0 1 0 0 0 1 30136.dat
+1 100 20 0 0 1 0 0 0 1 0 0 0 1 98283.dat
+1 100 0 24 0 1 0 0 0 1 0 0 0 1 98283.dat
+1 100 0 24 20 1 0 0 0 1 0 0 0 1 30136.dat
+0 FILE HogwartsA.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 14 0 -144 90 -1 0 0 0 1 0 0 0 -1 3659.dat
+1 14 90 -144 0 0 0 1 0 1 0 -1 0 0 3659.dat
+1 14 -90 -144 0 0 0 1 0 1 0 -1 0 0 3659.dat
+1 14 30 -120 90 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 -30 -120 90 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 90 -120 30 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 -90 -120 30 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 30 -96 90 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 -30 -96 90 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 90 -96 30 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 -90 -96 30 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 30 -72 90 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 -30 -72 90 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 90 -72 30 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 -90 -72 30 -1 0 0 0 1 0 0 0 -1 3062b.dat
+1 14 90 -120 -30 -1 0 0 0 1 0 0 0 -1 2453.dat
+1 14 -90 -120 -30 -1 0 0 0 1 0 0 0 -1 2453.dat
+1 70 20 -48 20 0 0 -1 0 1 0 1 0 0 30056.dat
+1 70 -20 -48 20 -1 0 0 0 1 0 0 0 -1 30056.dat
+1 31 0 0 0 -1 0 0 0 1 0 0 0 -1 89523.dat
+1 100 90 -56 0 0 0 1 0 1 0 -1 0 0 3069b.dat
+1 14 90 -48 0 0 0 1 0 1 0 -1 0 0 30136.dat
+1 100 -90 -56 0 0 0 1 0 1 0 -1 0 0 3069b.dat
+1 14 -90 -48 0 0 0 1 0 1 0 -1 0 0 30136.dat
+1 100 -90 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 70 0 -48 90 1 0 0 0 1 0 0 0 1 87552.dat
+1 100 90 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+0 FILE HogwartsB.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 14 0 -144 70 1 0 0 0 1 0 0 0 1 3455.dat
+1 14 90 -144 0 0 0 -1 0 1 0 1 0 0 3659.dat
+1 14 -90 -144 0 0 0 -1 0 1 0 1 0 0 3659.dat
+1 14 90 -120 -30 -1 0 0 0 1 0 0 0 -1 2453.dat
+1 14 -90 -120 -30 -1 0 0 0 1 0 0 0 -1 2453.dat
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 89523.dat
+1 70 0 -80 90 -1 0 0 0 1 0 0 0 -1 3710.dat
+1 70 0 -72 90 -1 0 0 0 1 0 0 0 -1 30055.dat
+1 14 -20 -24 70 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 14 20 -24 70 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 100 -90 -56 0 0 0 1 0 1 0 -1 0 0 3069b.dat
+1 14 -90 -48 0 0 0 1 0 1 0 -1 0 0 30136.dat
+1 100 -90 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 100 90 -56 0 0 0 1 0 1 0 -1 0 0 3069b.dat
+1 14 90 -48 0 0 0 1 0 1 0 -1 0 0 30136.dat
+1 100 90 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 31 70 -144 50 0 0 -1 0 1 0 1 0 0 CornerSec.ldr
+1 31 -70 -144 50 -1 0 0 0 1 0 0 0 -1 CornerSec.ldr
+0 FILE RoomWithDoor.ldr
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+1 31 0 0 0 0 0 -1 0 1 0 1 0 0 89523.dat
+1 31 0 -8 -20 1 0 0 0 1 0 0 0 1 Throne_Flair.ldr
+1 31 50 -144 50 0 0 -1 0 1 0 1 0 0 CornerSec.ldr
+1 31 -50 -144 50 -1 0 0 0 1 0 0 0 -1 CornerSec.ldr
+1 100 -70 -144 -50 0 0 -1 0 1 0 1 0 0 43888.dat
+1 100 70 -144 -50 0 0 -1 0 1 0 1 0 0 43888.dat
+1 14 -70 -120 -30 -1 0 0 0 1 0 0 0 -1 2453a.dat
+1 14 70 -120 -30 -1 0 0 0 1 0 0 0 -1 2453a.dat
+1 31 70 -72 0 0 0 1 0 1 0 -1 0 0 DrumWindow.ldr
+1 31 -70 -72 0 0 0 -1 0 1 0 1 0 0 DrumWindow.ldr
+1 31 0 -72 70 1 0 0 0 1 0 0 0 1 DrumWindow.ldr
+1 31 70 -144 0 0 0 -1 0 1 0 1 0 0 CastleSupport1x4.ldr
+1 31 -70 -144 0 0 0 1 0 1 0 -1 0 0 CastleSupport1x4.ldr
+1 31 0 -144 70 -1 0 0 0 1 0 0 0 -1 CastleSupport1x4.ldr
+0 FILE RoomWithDoorB.ldr
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+1 31 0 0 0 0 0 -1 0 1 0 1 0 0 89523.dat
+1 31 50 -144 50 0 0 -1 0 1 0 1 0 0 CornerSec.ldr
+1 31 -50 -144 50 -1 0 0 0 1 0 0 0 -1 CornerSec.ldr
+1 14 -60 -24 -30 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 14 60 -24 -30 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 14 70 -48 -30 0 0 -1 0 1 0 1 0 0 3005.dat
+1 14 70 -72 -30 0 0 -1 0 1 0 1 0 0 3005.dat
+1 14 70 -96 -30 0 0 -1 0 1 0 1 0 0 3005.dat
+1 14 -60 -48 -30 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 14 -60 -72 -30 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 14 -60 -96 -30 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 14 70 -120 -30 0 0 -1 0 1 0 1 0 0 60476.dat
+1 14 50 -96 -30 1 0 0 0 1 0 0 0 1 60583.dat
+1 14 -70 -120 -30 0 0 1 0 1 0 -1 0 0 60476.dat
+1 14 0 -144 -30 1 0 0 0 1 0 0 0 1 3307.dat
+1 70 50 -84 -50 0 0 -1 0 1 0 1 0 0 64390.dat
+1 14 0 -104 -44 -1 0 0 0 1 0 0 0 -1 30046.dat
+1 100 -70 -144 -50 0 0 -1 0 1 0 1 0 0 43888.dat
+1 100 70 -144 -50 0 0 -1 0 1 0 1 0 0 43888.dat
+1 31 -70 -72 0 0 0 -1 0 1 0 1 0 0 DrumWindow.ldr
+1 31 70 -72 0 0 0 1 0 1 0 -1 0 0 DrumWindow.ldr
+1 31 0 -72 70 1 0 0 0 1 0 0 0 1 DrumWindow.ldr
+1 31 0 -144 70 -1 0 0 0 1 0 0 0 -1 CastleSupport1x4.ldr
+1 31 70 -144 0 0 0 -1 0 1 0 1 0 0 CastleSupport1x4.ldr
+1 31 -70 -144 0 0 0 1 0 1 0 -1 0 0 CastleSupport1x4.ldr
+0 FILE CastleWindow.ldr
+0 REPLACE "CastleWindow_Table" ALL
+1 200 0 24 -3.5 1 0 0 0 1 0 0 0 1 30046.dat
+1 200 0 0 0 1 0 0 0 1 0 0 0 1 30044.dat
+0 FILE Throne_Flair.ldr
+0 REPLACE "Throne_Table" ONE
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 3031.dat
+1 14 -10 -72 30 0 0 1 0 1 0 -1 0 0 4460b.dat
+1 14 10 -72 30 0 0 -1 0 1 0 1 0 0 4460b.dat
+1 14 0 -24 -20 0 0 1 0 1 0 -1 0 0 4871.dat
+1 14 0 -80 30 1 0 0 0 1 0 0 0 1 3069.dat
+1 14 30 -24 10 0 0 1 0 1 0 -1 0 0 3040.dat
+1 14 -30 -24 10 0 0 -1 0 1 0 1 0 0 3040.dat
+0 FILE CornerSec.ldr
+0 REPLACE "Corner_Table.ldr" ALL
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 87421.dat
+0 FILE DrumWindow.ldr
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 87544.dat
+1 14 0 -48 0 -1 0 0 0 1 0 0 0 -1 90195.dat

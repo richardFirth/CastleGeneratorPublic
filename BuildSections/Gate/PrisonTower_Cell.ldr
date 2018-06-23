@@ -1,0 +1,35 @@
+0 FILE main.ldr
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPLACE_BRICK 60808.dat "4x6_Wall_Table(WallType)" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColorB" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 0 80 -24 20 0 0 1 0 1 0 -1 0 0 CellWall
+1 0 -80 -24 20 0 0 -1 0 1 0 1 0 0 CellWall
+1 14 0 -144 50 1 0 0 0 1 0 0 0 1 3455.dat
+1 14 -50 -144 -10 0 0 1 0 1 0 -1 0 0 2453.dat
+1 14 0 -144 -10 1 0 0 0 1 0 0 0 1 60808.dat
+1 60 110 -8 50 0 0 1 0 1 0 -1 0 0 4073.dat
+1 14 0 -56 -60 1 0 0 0 1 0 0 0 1 6066.dat
+1 31 0 0 0 0 0 1 0 1 0 -1 0 0 3032.dat
+1 31 -80 0 0 0 0 1 0 1 0 -1 0 0 3032.dat
+1 31 80 0 0 0 0 1 0 1 0 -1 0 0 3032.dat
+1 60 -110 -8 50 -1 0 0 0 1 0 0 0 -1 4073.dat
+1 14 50 -144 -10 0 0 1 0 1 0 -1 0 0 2453.dat
+1 14 0 -24 -10 -1 0 0 0 1 0 0 0 -1 3009.dat
+1 14 -50 -120 50 0 0 1 0 1 0 -1 0 0 2453.dat
+1 14 50 -120 50 0 0 1 0 1 0 -1 0 0 2453.dat
+0 FILE CellWall
+0 REPCOLOR 11 "A_GroundColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+1 100 0 0 0 -1 0 0 0 1 0 0 0 -1 3001.dat
+1 30 20 -120 -10 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 30 -20 -120 -10 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 70 0 -96 -10 -1 0 0 0 1 0 0 0 -1 30137.dat
+1 14 20 -72 -10 -1 0 0 0 1 0 0 0 -1 3678b.dat
+1 14 -20 -72 -10 -1 0 0 0 1 0 0 0 -1 3678b.dat
+1 100 0 -24 0 -1 0 0 0 1 0 0 0 -1 3001.dat
