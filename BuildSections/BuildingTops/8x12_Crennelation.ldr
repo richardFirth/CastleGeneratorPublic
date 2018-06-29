@@ -6,7 +6,7 @@
 0 FILE WhiteCapStyle_8x12
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 1 14 -60 -48 -90 -1 0 0 0 1 0 0 0 -1 3039.dat
 1 14 -60 -24 -70 1 0 0 0 1 0 0 0 1 3004.dat
 1 14 0 -48 -90 -1 0 0 0 1 0 0 0 -1 3039.dat
@@ -48,25 +48,18 @@
 1 14 60 -24 70 -1 0 0 0 1 0 0 0 -1 3004.dat
 1 14 60 -48 -90 -1 0 0 0 1 0 0 0 -1 3039.dat
 1 14 60 -24 -70 1 0 0 0 1 0 0 0 1 3004.dat
-
-
 1 31 90 0 20 1 0 0 0 1 0 0 0 1 3021.dat
 1 31 -90 0 -20 1 0 0 0 1 0 0 0 1 3021.dat
 1 31 -90 0 20 1 0 0 0 1 0 0 0 1 3021.dat
 1 14 -60 -48 -90 -1 0 0 0 1 0 0 0 -1 85984.dat
 1 14 0 -48 -90 -1 0 0 0 1 0 0 0 -1 85984.dat
 1 14 60 -48 -90 -1 0 0 0 1 0 0 0 -1 85984.dat
-
-
-
-
-
 0 FILE FantasyStyle_8x12
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 1 14 -100 -48 -90 -1 0 0 0 1 0 0 0 -1 85984.dat
 1 14 0 -24 90 1 0 0 0 1 0 0 0 1 12BTL
 1 14 0 -24 -90 -1 0 0 0 1 0 0 0 -1 12BTL
@@ -80,13 +73,6 @@
 1 14 100 -48 -90 -1 0 0 0 1 0 0 0 -1 85984.dat
 1 31 -60 0 0 0 0 1 0 1 0 -1 0 0 3033.dat
 1 31 60 0 0 0 0 1 0 1 0 -1 0 0 3033.dat
-
-
-
-
-
-
-
 1 14 -120 -56 0 0 0 1 0 1 0 -1 0 0 6066.dat
 1 14 120 -56 0 0 0 -1 0 1 0 1 0 0 6066.dat
 0 FILE RedCastleStyle_8x12
@@ -94,7 +80,7 @@
 0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 1 14 -100 -48 -90 -1 0 0 0 1 0 0 0 -1 85984.dat
 1 14 0 -24 90 1 0 0 0 1 0 0 0 1 12BTL
 1 14 0 -24 -90 -1 0 0 0 1 0 0 0 -1 12BTL
@@ -121,10 +107,6 @@
 1 14 -60 0 0 1 0 0 0 1 0 0 0 1 3009.dat
 1 14 60 0 0 1 0 0 0 1 0 0 0 1 3009.dat
 1 14 0 -24 0 1 0 0 0 1 0 0 0 1 3004.dat
-0 FILE 6BTL
-0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
-1 14 0 0 0 0 0 1 0 1 0 -1 0 0 3009.dat
-1 14 0 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
 0 FILE 1x2Flag.ldr
 0 X_WIDTH 1
 0 Y_HEIGHT 3

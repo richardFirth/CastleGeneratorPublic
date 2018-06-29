@@ -3,7 +3,7 @@
 0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 1 14 -120 -48 -50 -1 0 0 0 1 0 0 0 -1 85984.dat
 1 14 0 -24 50 1 0 0 0 1 0 0 0 1 12BTL
 1 14 -130 -24 0 1 0 0 0 1 0 0 0 1 6BTL

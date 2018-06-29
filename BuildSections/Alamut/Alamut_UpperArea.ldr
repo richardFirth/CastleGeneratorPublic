@@ -75,7 +75,7 @@
 1 84 -70 0 50 0 0 -1 0 1 0 1 0 0 3008.dat
 1 84 70 0 50 0 0 -1 0 1 0 1 0 0 3008.dat
 0 FILE 1x1StandTorch.ldr
-0 REPLACE "1x1StandTorch_Table(TorchType)" ALL
+0 REPLACE "1x1StandTorch_Table" (TorchType) ALL
 1 0 0 0 0 0 0 1 0 1 0 -1 0 0 64644.dat
 1 4 0 -1 0 0 0 1 0 1 0 -1 0 0 64647.dat
 0 FILE CastleWindow.ldr

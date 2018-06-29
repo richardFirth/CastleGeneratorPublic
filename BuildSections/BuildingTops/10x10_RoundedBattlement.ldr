@@ -1,6 +1,6 @@
 0 FILE main.ldr
 0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
@@ -22,7 +22,7 @@
 1 70 -80 -56 0 1 0 0 0 1 0 0 0 1 battleRound.ldr
 0 FILE battleRound.ldr
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 1 14 0 0 0 0 0 1 0 1 0 -1 0 0 6066.dat
 1 20 -30 0 0 0 0 -1 0 1 0 1 0 0 85984.dat

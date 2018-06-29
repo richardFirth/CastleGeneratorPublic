@@ -5,15 +5,6 @@
 1 31 -450 0 0 0 0 -1 0 1 0 1 0 0 HogwartsB.ldr
 1 31 -680 0 0 0 0 -1 0 1 0 1 0 0 HogwartsA.ldr
 1 31 -920 0 0 0 0 -1 0 1 0 1 0 0 VampyreRoom.ldr
-0 FILE CastleSupport1x4.ldr
-0 REPLACE "CastleSupport1x4_Table" ALL
-1 14 0 0 0 1 0 0 0 1 0 0 0 1 30414.dat
-1 100 0 10 -18 1 0 0 0 0 -1 0 1 0 3710.dat
-1 14 0 10 -26 1 0 0 0 0 -1 0 1 0 3710.dat
-1 100 30 10 -42 1 0 0 0 0 -1 0 1 0 30039.dat
-1 100 30 10 -42 1 0 0 0 0 -1 0 1 0 6091.dat
-1 100 -30 10 -42 1 0 0 0 0 -1 0 1 0 30039.dat
-1 100 -30 10 -42 1 0 0 0 0 -1 0 1 0 6091.dat
 0 FILE VampyreRoom.ldr
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
@@ -113,7 +104,7 @@
 1 31 70 -144 50 0 0 -1 0 1 0 1 0 0 CornerSec.ldr
 1 31 -70 -144 50 -1 0 0 0 1 0 0 0 -1 CornerSec.ldr
 0 FILE RoomWithDoor.ldr
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
@@ -133,7 +124,7 @@
 1 31 -70 -144 0 0 0 1 0 1 0 -1 0 0 CastleSupport1x4.ldr
 1 31 0 -144 70 -1 0 0 0 1 0 0 0 -1 CastleSupport1x4.ldr
 0 FILE RoomWithDoorB.ldr
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
@@ -163,6 +154,15 @@
 1 31 0 -144 70 -1 0 0 0 1 0 0 0 -1 CastleSupport1x4.ldr
 1 31 70 -144 0 0 0 -1 0 1 0 1 0 0 CastleSupport1x4.ldr
 1 31 -70 -144 0 0 0 1 0 1 0 -1 0 0 CastleSupport1x4.ldr
+0 FILE CastleSupport1x4.ldr
+0 REPLACE "CastleSupport1x4_Table" ALL
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 30414.dat
+1 100 0 10 -18 1 0 0 0 0 -1 0 1 0 3710.dat
+1 14 0 10 -26 1 0 0 0 0 -1 0 1 0 3710.dat
+1 100 30 10 -42 1 0 0 0 0 -1 0 1 0 30039.dat
+1 100 30 10 -42 1 0 0 0 0 -1 0 1 0 6091.dat
+1 100 -30 10 -42 1 0 0 0 0 -1 0 1 0 30039.dat
+1 100 -30 10 -42 1 0 0 0 0 -1 0 1 0 6091.dat
 0 FILE CastleWindow.ldr
 0 REPLACE "CastleWindow_Table" ALL
 1 200 0 24 -3.5 1 0 0 0 1 0 0 0 1 30046.dat
@@ -180,7 +180,7 @@
 0 REPLACE "Corner_Table.ldr" ALL
 1 14 0 0 0 1 0 0 0 1 0 0 0 1 87421.dat
 0 FILE DrumWindow.ldr
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 1 14 0 0 0 1 0 0 0 1 0 0 0 1 87544.dat

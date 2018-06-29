@@ -1,7 +1,7 @@
 0 FILE main.ldr
 0 SCMD_TABLE
 1 0 -160 -16 -140 1 0 0 0 1 0 0 0 1 original.ldr
-1 0 -160 -16 10 1 0 0 0 1 0 0 0 1 TowerTopB.ldr
+1 0 -160 -16 30 1 0 0 0 1 0 0 0 1 TowerTopB.ldr
 0 FILE original.ldr
 0 REPCOLOR 11 "A_GroundColor" ALL
 0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL

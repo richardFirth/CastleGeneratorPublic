@@ -1,14 +1,12 @@
 0 FILE main.ldr
 0 SCMD_TABLE
-
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 8x10_Kingdoms.ldr
-
 0 FILE 8x10_Kingdoms.ldr
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 1 14 -80 -48 -70 -1 0 0 0 1 0 0 0 -1 85984.dat
 1 14 -90 -24 0 0 0 -1 0 1 0 1 0 0 10BTL
 1 14 0 -24 -70 -1 0 0 0 1 0 0 0 -1 10BTL

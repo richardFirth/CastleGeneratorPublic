@@ -1,6 +1,6 @@
 0 FILE main.ldr
 0 REPCOLOR 11 "A_GroundColor" ALL
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL

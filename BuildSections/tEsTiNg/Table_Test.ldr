@@ -4,51 +4,7 @@
 1 31 0 0 230 1 0 0 0 1 0 0 0 1 SLOPE_B.ldr
 1 31 0 0 460 1 0 0 0 1 0 0 0 1 SLOPE_C.ldr
 1 31 0 0 690 1 0 0 0 1 0 0 0 1 AirjitsuRoof_D.ldr
-1 31 0 0 930 1 0 0 0 1 0 0 0 1 BellRoof_E.ldr
-0 FILE BellRoof_E.ldr
-0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
-0 REPCOLOR 30 "C_FactionColor" ALL
-0 REPCOLOR 31 "B_Walkway" ALL
-0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
-1 30 0 0 0 1 0 0 0 1 0 0 0 1 BellSection_E.ldr
-1 30 0 -168 20 1 0 0 0 1 0 0 0 1 3020.dat
-1 72 0 -128 0 1 0 0 0 1 0 0 0 1 3062b.dat
-1 72 0 -104 0 1 0 0 0 1 0 0 0 1 30367.dat
-1 72 0 -80 0 1 0 0 0 1 0 0 0 1 4032a.dat
-1 72 0 -72 0 1 0 0 0 1 0 0 0 1 43898.dat
-1 297 0 -64 0 -1 0 -0 0 1 0 0 0 -1 59900.dat
-1 0 0 -320 0 -1 0 0 0 1 0 0 0 -1 63965.dat
-1 0 0 -312 0 -1 0 0 0 1 0 0 0 -1 3062b.dat
-1 4 0 -392 0 -1 0 0 0 1 0 0 0 -1 TwoFlags.ldr
-1 31 0 0 0 1 0 0 0 1 0 0 0 1 42534.dat
-1 30 0 -288 0 1 0 0 0 1 0 0 0 1 3688.dat
-1 100 0 -40 0 1 0 0 0 1 0 0 0 1 3958.dat
-1 30 0 -136 0 1 0 0 0 1 0 0 0 1 3958.dat
-1 30 0 -168 -20 1 0 0 0 1 0 0 0 1 3020.dat
-1 30 0 0 0 0 0 1 0 1 0 -1 0 0 BellSection_E.ldr
-1 30 0 0 0 -1 0 0 0 1 0 0 0 -1 BellSection_E.ldr
-1 30 0 0 0 0 0 -1 0 1 0 1 0 0 BellSection_E.ldr
-0 FILE BellSection_E.ldr
-0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
-0 REPCOLOR 30 "C_FactionColor" ALL
-0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
-1 30 -20 -24 -60 1 0 0 0 1 0 0 0 1 3038.dat
-1 30 0 -32 -60 -1 0 -0 0 1 0 0 0 -1 63864.dat
-1 30 -50 -32 -50 -1 0 -0 0 1 0 0 0 -1 87580.dat
-1 14 50 -48 -50 1 0 0 0 1 0 0 0 1 30039.dat
-1 14 0 -48 -50 1 0 0 0 1 0 0 0 1 92593.dat
-1 14 30 -72 -50 0 0 -1 0 1 0 1 0 0 3062b.dat
-1 14 30 -96 -50 0 0 -1 0 1 0 1 0 0 3062b.dat
-1 14 0 -120 -50 1 0 0 0 1 0 0 0 1 3659.dat
-1 30 30 -160 -30 1 0 0 0 1 0 0 0 1 3045.dat
-1 30 0 -160 -30 1 0 0 0 1 0 0 0 1 3039.dat
-1 14 -30 -72 -50 0 0 -1 0 1 0 1 0 0 3062b.dat
-1 14 -30 -96 -50 0 0 -1 0 1 0 1 0 0 3062b.dat
-1 30 10 -240 -10 1 0 0 0 1 0 0 0 1 3685.dat
-1 30 20 -128 -50 1 0 0 0 1 0 0 0 1 32028.dat
-1 30 -20 -128 -50 1 0 0 0 1 0 0 0 1 32028.dat
-1 30 30 -24 -60 1 0 0 0 1 0 0 0 1 3039.dat
-1 30 -60 -24 -60 0 0 1 0 1 0 -1 0 0 3045.dat
+
 0 FILE AirjitsuRoof_D.ldr
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
@@ -62,6 +18,9 @@
 1 0 0 -104 0 -1 0 0 0 1 0 0 0 -1 3062b.dat
 1 4 0 -184 0 -1 0 0 0 1 0 0 0 -1 TwoFlags.ldr
 1 0 0 -112 0 -1 0 0 0 1 0 0 0 -1 63965.dat
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
+
+
 0 FILE AirjitsuRoof_Section.ldr
 0 REPCOLOR 30 "C_FactionColor" ALL
 1 30 -50 -24 -50 0 0 1 0 1 0 -1 0 0 3675.dat
@@ -71,6 +30,8 @@
 1 30 -10 -72 -10 0 0 1 0 1 0 -1 0 0 3045.dat
 1 30 -30 -24 -50 1 0 0 0 1 0 0 0 1 3040b.dat
 1 30 -30 -48 0 0 0 1 0 1 0 -1 0 0 3039.dat
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
+
 0 FILE SLOPE_C.ldr
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
@@ -94,10 +55,14 @@
 1 30 20 -48 -60 0 0 1 0 1 0 -1 0 0 3003.dat
 1 30 50 -48 -60 0 0 -1 0 1 0 1 0 0 3039.dat
 1 30 -50 -48 -60 0 0 1 0 1 0 -1 0 0 3039.dat
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
+
 0 FILE SlopeSection_C.ldr
 0 REPCOLOR 30 "C_FactionColor" ALL
 1 30 0 0 0 1 0 0 0 1 0 0 0 1 3037.dat
 1 30 50 0 0 1 0 0 0 1 0 0 0 1 3045.dat
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
+
 0 FILE Slanted_C_Upper.ldr
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
@@ -121,6 +86,8 @@
 1 30 0 -72 70 -1 0 0 0 1 0 0 0 -1 30499.dat
 1 30 30 -72 70 0 0 -1 0 1 0 1 0 0 3685.dat
 1 30 -30 -72 70 -1 0 0 0 1 0 0 0 -1 3685.dat
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
+
 0 FILE SLOPE_B.ldr
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
@@ -133,6 +100,8 @@
 1 0 -70 -24 -20 0 0 1 0 1 0 -1 0 0 SlopeSection_B.ldr
 1 0 -20 -24 70 -1 0 0 0 1 0 0 0 -1 SlopeSection_B.ldr
 1 0 70 -24 20 0 0 -1 0 1 0 1 0 0 SlopeSection_B.ldr
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
+
 0 FILE SlopeSection_B.ldr
 0 REPCOLOR 30 "C_FactionColor" ALL
 1 30 0 0 0 1 0 0 0 1 0 0 0 1 3037.dat
@@ -143,6 +112,8 @@
 1 30 10 -48 40 1 0 0 0 1 0 0 0 1 3045.dat
 1 30 -20 -48 40 1 0 0 0 1 0 0 0 1 3039.dat
 1 30 -10 -72 60 1 0 0 0 1 0 0 0 1 3045.dat
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
+
 0 FILE SLOPE_A.ldr
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
@@ -171,14 +142,20 @@
 1 30 -10 -192 -10 0 0 1 0 1 0 -1 0 0 3685.dat
 1 30 -10 -192 10 -1 0 0 0 1 0 0 0 -1 3685.dat
 1 30 10 -192 10 0 0 -1 0 1 0 1 0 0 3685.dat
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
+
 0 FILE SlopeSection_A.ldr
 0 REPCOLOR 30 "C_FactionColor" ALL
 1 30 0 0 0 1 0 0 0 1 0 0 0 1 3037.dat
 1 30 50 0 0 1 0 0 0 1 0 0 0 1 3045.dat
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
+
 0 FILE USlope.ldr
 0 REPCOLOR 30 "C_FactionColor" ALL
 1 30 30 0 0 1 0 0 0 1 0 0 0 1 3685.dat
 1 30 0 0 0 1 0 0 0 1 0 0 0 1 3684a.dat
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
+
 0 FILE TwoFlags.ldr
 0 X_WIDTH 1
 0 Y_HEIGHT 3
@@ -187,3 +164,4 @@
 0 REPCOLOR 60 "C_FactionColorB" ALL
 1 30 0 -24 0 0 0 1 0 1 0 -1 0 0 4495.dat
 1 60 0 0 0 0 0 1 0 1 0 -1 0 0 4495.dat
+1 25 0 -112 0 -1 0 0 0 1 0 0 0 -1 test.dat
