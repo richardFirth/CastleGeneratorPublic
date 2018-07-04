@@ -1,0 +1,10 @@
+%A,B
+:A
+!8x8_Sloped_Roof_Table@A_rot0, 0, 0, 0
+:B
+8_to_10@A_rot0, 0, 0, 0
+%C,D
+:C
+!RedStyle_Crennelation=10x10_Kingdoms_Style.ldr@A_rot0, 0, 4, 0
+:D
+!Round_Crennelation=10x10_RoundedCrennelation.ldr@A_rot0, 0, 4, 0

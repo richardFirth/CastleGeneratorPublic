@@ -5,7 +5,7 @@
 0 FILE TopSecA.ldr
 0 REPCOLOR 11 "A_GroundColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
@@ -61,7 +61,7 @@
 0 FILE TopSecB.ldr
 0 REPCOLOR 11 "A_GroundColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
-0 REPLACE_BRICK 85984.dat "CapBattlement_Table(F_BattlementStyle)" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
@@ -112,6 +112,6 @@
 1 1 40 -128 -10 1 0 0 0 1 0 0 0 1 CastleWindow.ldr
 1 1 -40 -128 -10 1 0 0 0 1 0 0 0 1 CastleWindow.ldr
 0 FILE CastleWindow.ldr
-0 REPLACE  "CastleWindow_Table" ALL
+0 REPLACE "CastleWindow_Table" ALL
 1 200 0 24 -3.5 1 0 0 0 1 0 0 0 1 30046.dat
 1 200 0 0 0 1 0 0 0 1 0 0 0 1 30044.dat

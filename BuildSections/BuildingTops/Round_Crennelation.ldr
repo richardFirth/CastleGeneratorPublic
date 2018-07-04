@@ -1,0 +1,24 @@
+0 FILE main.ldr
+0 SCUBE
+1 14 10 0 250 1 0 0 0 1 0 0 0 1 10x10_RoundedCrennelation.ldr
+0 FILE 10x10_RoundedCrennelation.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 RoundCornerBTL.ldr
+1 31 0 0 0 0 0 1 0 1 0 -1 0 0 RoundCornerBTL.ldr
+1 31 0 0 0 0 0 -1 0 1 0 1 0 0 RoundCornerBTL.ldr
+1 31 0 0 0 -1 0 0 0 1 0 0 0 -1 RoundCornerBTL.ldr
+1 31 0 0 60 0 0 -1 0 1 0 1 0 0 3020.dat
+1 31 0 0 -60 0 0 -1 0 1 0 1 0 0 3020.dat
+0 FILE RoundCornerBTL.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
+1 31 60 0 -60 1 0 0 0 1 0 0 0 1 30565.dat
+1 14 20 -24 -20 1 0 0 0 1 0 0 0 1 48092.dat
+1 14 70 -48 -70 0.707 0 0.707 0 1 0 -0.707 0 0.707 3005.dat
+1 31 0 -48 -90 -1 0 0 0 1 0 0 0 -1 85984.dat
+1 14 0 -48 -90 1 0 0 0 1 0 0 0 1 3245a.dat

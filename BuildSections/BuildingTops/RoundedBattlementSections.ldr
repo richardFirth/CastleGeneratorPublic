@@ -1,11 +1,30 @@
 0 FILE main.ldr
+0 SCMD_TABLE
+1 31 0 0 0 1 0 0 0 1 0 0 0 1 8x16_Rounded.ldr
+1 31 0 0 170 1 0 0 0 1 0 0 0 1 8x10_Rounded.ldr
+0 FILE 8x16_Rounded.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
+1 31 -130 0 0 0 0 1 0 1 0 -1 0 0 3023.dat
+1 31 130 0 0 0 0 1 0 1 0 -1 0 0 3023.dat
+1 14 0 -24 -70 1 0 0 0 1 0 0 0 1 3008.dat
+1 31 0 0 40 -1 0 0 0 1 0 0 0 -1 3029.dat
+1 31 0 0 -40 -1 0 0 0 1 0 0 0 -1 3029.dat
+1 70 -120 -56 0 1 0 0 0 1 0 0 0 1 battleRound.ldr
+1 70 120 -56 0 -1 0 0 0 1 0 0 0 -1 battleRound.ldr
+1 14 -40 -48 -70 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 14 40 -48 -70 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 20 -40 -48 -70 -1 0 0 0 1 0 0 0 -1 85984.dat
+1 20 40 -48 -70 -1 0 0 0 1 0 0 0 -1 85984.dat
+0 FILE 8x10_Rounded.ldr
 0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
 0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 31 "B_Walkway" ALL
 1 6 0 -61 -50 1 0 0 0 1 0 0 0 1 2570.dat
-1 14 0 -173 70 1 0 0 0 1 0 0 0 1 TwoFlags.ldr
+1 14 0 -173 70 -1 0 0 0 1 0 0 0 -1 TwoFlags.ldr
 1 14 80 -56 0 -1 0 0 0 1 0 0 0 -1 battleRound.ldr
 1 30 0 -56 -50 1 0 0 0 1 0 0 0 1 4589.dat
 1 0 0 -32 -50 1 0 0 0 1 0 0 0 1 3794a.dat
@@ -20,6 +39,8 @@
 1 71 0 -85.188 70 1 0 0 0 1 0 0 0 1 4095.dat
 1 14 0 -24 -70 -1 0 0 0 1 0 0 0 -1 85984.dat
 1 70 -80 -56 0 1 0 0 0 1 0 0 0 1 battleRound.ldr
+1 31 90 0 0 0 0 1 0 1 0 -1 0 0 3023.dat
+1 31 -90 0 0 0 0 1 0 1 0 -1 0 0 3023.dat
 0 FILE battleRound.ldr
 0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPLACE_BRICK 85984.dat "CapBattlement_Table" (F_BattlementStyle) ALL

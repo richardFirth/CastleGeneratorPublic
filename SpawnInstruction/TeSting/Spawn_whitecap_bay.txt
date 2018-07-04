@@ -1,6 +1,13 @@
 WhiteCapBase@A_rot0,0,0,0
 WhiteCapFloor2@A_rot0,0,26,0
+%X,Y
+:X
 Upper_whitecap@A_rot0,0,48,0
-WhiteCap_Conv@A_rot0,0,72,0
+10_to_12@A_rot0,0,72,0
+%A,B
+:Y
+14x12_WedgeBattlement@A_rot0,0,48,0
+:A
 8x12_Crennelation@A_rot0,0,76,0
-
+:B
+JoustRoof@A_rot0,0,76,-2

@@ -1,0 +1,4 @@
+BaseDrawbridge@A_rot0,0,0,0
+RampSection@A_rot0,0,0,-22
+DrawBridgeFloor2@A_rot0,0,43,0
+$Spawn8x16_Roof@A_rot0,0,65,0

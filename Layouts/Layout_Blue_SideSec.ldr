@@ -3,26 +3,21 @@
 1 14 10 0 -270 1 0 0 0 1 0 0 0 1 Blue_Gate.ldr
 1 14 -330 0 10 1 0 0 0 1 0 0 0 1 SideSection.ldr
 1 14 350 0 10 -1 0 0 0 1 0 0 0 -1 SideSection.ldr
-
-
 1 14 -170 0 530 1 0 0 0 1 0 0 0 1 TreeLayout.ldr
-
-
 1 14 610 0 -80 1 0 0 0 1 0 0 0 1 TreeLayout.ldr
 1 14 190 0 540 1 0 0 0 1 0 0 0 1 TreeLayout.ldr
 1 14 -530 0 50 1 0 0 0 1 0 0 0 1 TreeLayout.ldr
 1 14 -230 0 -520 1 0 0 0 1 0 0 0 1 TreeLayout.ldr
 1 14 320 0 -560 1 0 0 0 1 0 0 0 1 TreeLayout.ldr
+1 14 40 0 -680 1 0 0 0 1 0 0 0 1 LayoutCatapult.ldr
+0 FILE LayoutCatapult.ldr
+0 LAYOUT SpawnSiegeVehicle
+1 0 0 0 0 0 0 1 0 1 0 -1 0 0 3035.dat
+1 14 0 -24 70 -1 0 0 0 1 0 0 0 -1 3004.dat
 0 FILE TreeLayout.ldr
 0 LAYOUT SpawnTree
 1 2 0 0 -30 1 0 0 0 1 0 0 0 1 2419.dat
 1 2 0 0 30 -1 0 0 0 1 0 0 0 -1 2419.dat
-
-
-
-
-
-
 0 FILE SideSection.ldr
 0 LAYOUT SideSectionGen.txt
 1 25 0 0 0 0 0 -1 0 1 0 1 0 0 3032.dat

@@ -12,6 +12,11 @@
 1 14 600 0 210 1 0 0 0 1 0 0 0 1 TreeLayout.ldr
 1 14 -850 0 180 1 0 0 0 1 0 0 0 1 TreeLayout.ldr
 1 14 -830 0 -280 1 0 0 0 1 0 0 0 1 TreeLayout.ldr
+1 14 -160 0 -590 1 0 0 0 1 0 0 0 1 LayoutCatapult.ldr
+0 FILE LayoutCatapult.ldr
+0 LAYOUT SpawnSiegeVehicle
+1 0 0 0 0 0 0 1 0 1 0 -1 0 0 3035.dat
+1 14 0 -24 70 -1 0 0 0 1 0 0 0 -1 3004.dat
 0 FILE 8x24_Alamut.ldr
 0 LAYOUT Alamut_main.txt
 1 120 0 0 0 1 0 0 0 1 0 0 0 1 41539.dat

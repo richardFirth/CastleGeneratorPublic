@@ -1,0 +1,3 @@
+RockTowerBase_10x8@A_rot0,0,0,0
+SeigeFront_10x8@A_rot0,0,22,1
+RoundedBattlementSections_8x10@A_rot0,0,44,1

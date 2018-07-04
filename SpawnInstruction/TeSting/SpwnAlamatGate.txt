@@ -1,0 +1,6 @@
+AlaGate_Center@A_rot0,0,0,0
+AlaGate_Edge=LeftAreaAla@A_rot0,-9,0,0
+AlaGate_Edge=RightAreaAla@A_rot0,9,0,0
+AlaGate_Turrets=AlaGate_RTurret@A_rot0,-8,33,1
+AlaGate_Turrets=AlaGate_LTurret@A_rot0,8,33,1
+AlaUpperArch@A_rot0,0,29,1

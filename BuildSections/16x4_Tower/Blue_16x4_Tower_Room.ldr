@@ -156,13 +156,8 @@
 1 31 -70 -144 0 0 0 1 0 1 0 -1 0 0 CastleSupport1x4.ldr
 0 FILE CastleSupport1x4.ldr
 0 REPLACE "CastleSupport1x4_Table" ALL
-1 14 0 0 0 1 0 0 0 1 0 0 0 1 30414.dat
-1 100 0 10 -18 1 0 0 0 0 -1 0 1 0 3710.dat
-1 14 0 10 -26 1 0 0 0 0 -1 0 1 0 3710.dat
-1 100 30 10 -42 1 0 0 0 0 -1 0 1 0 30039.dat
-1 100 30 10 -42 1 0 0 0 0 -1 0 1 0 6091.dat
-1 100 -30 10 -42 1 0 0 0 0 -1 0 1 0 30039.dat
-1 100 -30 10 -42 1 0 0 0 0 -1 0 1 0 6091.dat
+1 25 -20 0 0 1 0 0 0 1 0 0 0 1 3660.dat
+1 25 20 0 0 1 0 0 0 1 0 0 0 1 3660.dat
 0 FILE CastleWindow.ldr
 0 REPLACE "CastleWindow_Table" ALL
 1 200 0 24 -3.5 1 0 0 0 1 0 0 0 1 30046.dat

@@ -1,1 +1,2 @@
-FlairTest@A_rot0,0,0,24
+10x10_Oct_Battlement_Table@A_rot0,0,0,0
++Catapult@A_rot0,0,0,0

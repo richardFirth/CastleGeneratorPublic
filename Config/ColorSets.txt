@@ -1,3 +1,11 @@
+A_PrimaryBuildColor:Black,Light_Bluish_Grey,Light_Bluish_Grey,Dark_Bluish_Grey,Dark_Bluish_Grey
+B_SecondaryBuildcolor:Light_Bluish_Grey,Dark_Bluish_Grey,Light_Bluish_Grey,Dark_Bluish_Grey,Black,Reddish_Brown,Tan
+C_TeriaryBuildColor:Black,Reddish_Brown,Tan
+A_GroundColor:Green,Light_Green,Medium_Green,Sand_Green,Dark_Green
+B_Walkway:Dark_Bluish_Grey,Black,Reddish_Brown
+C_FactionColor:Blue,Red,Dark_Green,Dark_Red,Dark_Blue,Blue_Violet,Maersk_Blue,Medium_Orange,Sky_Blue,Dark_Azure
+C_FactionColorB:Black,Pearl_Gold,White
 TreeGreen:Green,Bright_Green,Dark_Green
 TreeAutumn:Dark_Orange,Dark_Red,Magenta
 TransPotion:Trans_Dark_Blue,Trans_Green,Trans_Red,Trans_Neon_Orange
+RockSection:Light_Bluish_Grey,Dark_Bluish_Grey,Reddish_Brown

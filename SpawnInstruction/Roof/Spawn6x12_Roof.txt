@@ -1,0 +1,8 @@
+%G,H,F
+:G
+6x12_Crennelation.ldr@A_rot0, 0, 0, 0
+:H
+HingedRoof=HingedRoof_6x12.ldr@A_rot0, 0, 0, 0
+:F
+PrisonTower_Cell.ldr@A_rot0, 0, 0, 0
+PrisonTower_Top.ldr@A_rot0, 0, 19, 1

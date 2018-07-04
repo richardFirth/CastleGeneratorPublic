@@ -1,5 +1,4 @@
 0 FILE Flags_45Degree.ldr
-0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
 0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
 0 REPCOLOR 30 "C_FactionColor" ALL
 0 REPCOLOR 60 "C_FactionColorB" ALL

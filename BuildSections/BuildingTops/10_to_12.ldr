@@ -1,0 +1,50 @@
+0 FILE main.ldr
+0 SCMD_TABLE
+1 31 200 0 0 1 0 0 0 1 0 0 0 1 10to12.ldr
+1 31 -50 0 0 1 0 0 0 1 0 0 0 1 10to12B.ldr
+0 FILE 10to12.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 40 1 0 0 0 1 0 0 0 1 3030.dat
+1 14 -80 -24 60 -1 0 0 0 1 0 0 0 -1 87620.dat
+1 14 80 -24 60 0 0 -1 0 1 0 1 0 0 87620.dat
+1 15 -70 -24 0 0 0 1 0 1 0 -1 0 0 3009.dat
+1 31 0 0 -40 1 0 0 0 1 0 0 0 1 3030.dat
+1 15 70 -24 0 0 0 1 0 1 0 -1 0 0 3009.dat
+1 14 -50 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 50 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 80 -24 -60 1 0 0 0 1 0 0 0 1 87620.dat
+1 14 -80 -24 -60 0 0 1 0 1 0 -1 0 0 87620.dat
+1 14 -50 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 50 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+1 19 0 -24 -70 1 0 0 0 1 0 0 0 1 CastleSupport1x4.ldr
+1 19 90 -24 0 0 0 -1 0 1 0 1 0 0 CastleSupport1x4.ldr
+1 19 -90 -24 0 0 0 1 0 1 0 -1 0 0 CastleSupport1x4.ldr
+1 19 0 -24 70 -1 0 0 0 1 0 0 0 -1 CastleSupport1x4.ldr
+0 FILE 10to12B.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 31 0 0 40 1 0 0 0 1 0 0 0 1 3030.dat
+1 15 -70 -24 0 0 0 1 0 1 0 -1 0 0 3009.dat
+1 31 0 0 -40 1 0 0 0 1 0 0 0 1 3030.dat
+1 15 70 -24 0 0 0 1 0 1 0 -1 0 0 3009.dat
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 Edge_10to12B.ldr
+1 14 -20 0 0 0 0 1 0 1 0 -1 0 0 Edge_10to12B.ldr
+1 14 0 0 0 -1 0 0 0 1 0 0 0 -1 Edge_10to12B.ldr
+1 14 20 0 0 0 0 -1 0 1 0 1 0 0 Edge_10to12B.ldr
+1 14 -80 -24 -70 1 0 0 0 1 0 0 0 1 3004.dat
+1 14 80 -24 -70 1 0 0 0 1 0 0 0 1 3004.dat
+1 14 80 -24 70 1 0 0 0 1 0 0 0 1 3004.dat
+1 14 -80 -24 70 1 0 0 0 1 0 0 0 1 3004.dat
+0 FILE Edge_10to12B.ldr
+0 REPCOLOR 14 "A_PrimaryBuildColor" ALL
+0 REPCOLOR 100 "B_SecondaryBuildcolor" ALL
+0 REPCOLOR 30 "C_FactionColor" ALL
+0 REPCOLOR 31 "B_Walkway" ALL
+1 14 0 -24 -70 1 0 0 0 1 0 0 0 1 3010.dat
+1 100 -50 -24 -70 1 0 0 0 1 0 0 0 1 3665.dat
+1 100 50 -24 -70 1 0 0 0 1 0 0 0 1 3665.dat
+0 FILE CastleSupport1x4.ldr
+0 REPLACE "CastleSupport1x4_Table" ALL
+1 25 -20 0 0 1 0 0 0 1 0 0 0 1 3660.dat
+1 25 20 0 0 1 0 0 0 1 0 0 0 1 3660.dat

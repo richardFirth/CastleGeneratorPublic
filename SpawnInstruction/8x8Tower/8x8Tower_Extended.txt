@@ -1,13 +1,16 @@
 8x8_TowerBase_Extended@A_rot0, 0, 0, 0
 !8x8_TowerUpper@A_rot0, 0, 19, 0
-%A,B
+
+%A,A,A,B,C
 :A
 !8x8_TowerSections@A_rot0, 0, 38, 0
 !8x8_TowerSections@A_rot0, 0, 60, 0
-!8x8_Sloped_Roof_Table@A_rot0, 0, 82, 0
+$Spawn8x8_Roof@A_rot0, 0, 82, 0
 :B
 !8x8_TowerSections@A_rot0, 0, 38, 0
+$Spawn8x8_Roof@A_rot0, 0, 60, 0
+:C
+!8x8_TowerSections@A_rot0, 0, 38, 0
 !8x8_TowerSections@A_rot0, 0, 60, 0
-8_to_10@A_rot0, 0, 82, 0
-!10x10_Crennelation@A_rot0, 0, 86, 0
-
+!8x8_TowerSections@A_rot0, 0, 82, 0
+$Spawn8x8_Roof@A_rot0, 0, 104, 0
